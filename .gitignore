@@ -8,3 +8,5 @@ Library
 .idea
 UserSettings
 Build
+Assets/StreamingAssets/build_info
+Assets/StreamingAssets/build_info.meta

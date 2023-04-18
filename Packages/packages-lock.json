@@ -21,6 +21,13 @@
       "dependencies": {},
       "hash": "b8b990bfc18201dd82128f76fd112a64163882c9"
     },
+    "com.liuocean.luban_gui": {
+      "version": "https://github.com/LiuOcean/Luban_Unity_GUI.git?path=Assets/",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d31420becf672f5eee196af7aa33ccc1a8b20b32"
+    },
     "com.tuyoogame.yooasset": {
       "version": "1.4.11",
       "depth": 0,

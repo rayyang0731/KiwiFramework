@@ -3,6 +3,7 @@
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.e7.protobuf-unity": "https://github.com/5argon/protobuf-unity.git",
     "com.focus-creative-games.hybridclr_unity": "https://gitee.com/focus-creative-games/hybridclr_unity.git",
+    "com.liuocean.luban_gui": "https://github.com/LiuOcean/Luban_Unity_GUI.git?path=Assets/",
     "com.tuyoogame.yooasset": "1.4.11",
     "com.unity.collab-proxy": "2.0.1",
     "com.unity.feature.development": "1.0.1",

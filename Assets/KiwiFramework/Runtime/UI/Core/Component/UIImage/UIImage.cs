@@ -1,3 +1,5 @@
+using Cysharp.Threading.Tasks;
+
 using Sirenix.OdinInspector;
 
 using UnityEngine;
@@ -38,7 +40,7 @@ namespace KiwiFramework.Runtime.UI
 				if (Native == null) return;
 
 				if (Native.sprite != null && Application.isPlaying)
-					SpriteManager.Instance.ReleaseSprite(Native.sprite.name);
+					AssetLoader.Unload(Native.sprite);
 
 				Native.sprite = value;
 			}
@@ -67,7 +69,7 @@ namespace KiwiFramework.Runtime.UI
 		/// <param name="targetState">状态索引</param>
 		/// <param name="force">是否强制设置状态索引,可缺省,默认为false</param>
 		/// <returns>修改状态是否成功</returns>
-		public override async UniTaskVoid SetState(int targetState, bool force = false)
+		public override async void SetState(int targetState, bool force = false)
 		{
 			if (!force && CurrentState == targetState)
 				return;

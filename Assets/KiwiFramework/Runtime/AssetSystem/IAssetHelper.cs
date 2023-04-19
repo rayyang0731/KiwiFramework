@@ -97,6 +97,12 @@ namespace KiwiFramework.Runtime
 		void Unload(Object obj);
 
 		/// <summary>
+		/// 删除实例资源对象
+		/// </summary>
+		/// <param name="clone"></param>
+		void Destroy(Object clone);
+
+		/// <summary>
 		/// 卸载未使用的资源对象
 		/// </summary>
 		void UnloadUnusedAssets();
@@ -158,6 +164,7 @@ namespace KiwiFramework.Runtime
 		public virtual UniTask<byte[]> LoadRawFileToBytesAsync(string key) => throw new NotImplementedException();
 
 		public virtual void Unload(Object obj) { throw new NotImplementedException(); }
+		public virtual void Destroy(Object clone) { throw new NotImplementedException(); }
 
 		public virtual void UnloadUnusedAssets() { throw new NotImplementedException(); }
 	}

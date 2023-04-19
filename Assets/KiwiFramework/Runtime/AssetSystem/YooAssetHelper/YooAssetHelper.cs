@@ -1,19 +1,19 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Threading.Tasks;
 
 using Cysharp.Threading.Tasks;
 
 using JetBrains.Annotations;
 
 using UnityEngine;
+using UnityEngine.U2D;
 
 using YooAsset;
 
 using Object = UnityEngine.Object;
 
-namespace KiwiFramework.Runtime
+namespace KiwiFramework.Runtime.AssetSystem
 {
 	public class YooAssetHelper : BaseAssetHelper
 	{
@@ -31,6 +31,12 @@ namespace KiwiFramework.Runtime
 
 		public string currentPackageName { get; private set; }
 		public EPlayMode playMode { get; private set; }
+
+		private readonly Dictionary<Object, AssetOperationHandle> _obj2Handles = new();
+
+		private readonly Dictionary<Object, InstantiateOperation> _clone2Handles = new();
+
+		private readonly Dictionary<Object, Object> _clone2Objs = new();
 
 		public override async void Initialize(object userData, Action callback)
 		{
@@ -92,22 +98,6 @@ namespace KiwiFramework.Runtime
 			callback.Invoke();
 		}
 
-		public override T Load<T>(string key)
-		{
-			if (string.IsNullOrEmpty(key))
-			{
-				Debug.LogError("要加载的资源的Key不能为 null 或 empty.");
-				return null;
-			}
-
-			var handle = YooAssets.LoadAssetSync<T>(key);
-			if (handle.Status == EOperationStatus.Succeed)
-				return handle.GetAssetObject<T>();
-
-			Debug.LogError($"资源同步加载失败 : {key} , error : {handle.LastError}");
-			return null;
-		}
-
 		public override async void LoadAsync<T>(string key, [NotNull] Action<T> callback)
 		{
 			if (callback == null) throw new ArgumentNullException(nameof(callback));
@@ -118,45 +108,52 @@ namespace KiwiFramework.Runtime
 
 			callback.Invoke(obj);
 		}
-		
+
 		public override async UniTask<T> LoadAsync<T>(string key)
 		{
-			if (string.IsNullOrEmpty(key))
+			if (typeof(T) == typeof(Sprite))
 			{
-				Debug.LogError("要加载的资源的Key不能为 null 或 empty.");
-				return null;
+				var matches = key.Split('_');
+				if (matches.Length == 2)
+				{
+					var atlasHandle = YooAssets.LoadAssetAsync<SpriteAtlas>(matches[0]);
+
+					await atlasHandle.ToUniTask();
+
+					if (atlasHandle.Status != EOperationStatus.Succeed)
+						throw new Exception($"异步加载 SpriteAtlas 失败 : {matches[0]}");
+
+					if (atlasHandle.AssetObject is not SpriteAtlas atlas)
+					{
+						atlasHandle.Release();
+						throw new Exception($"异步加载 SpriteAtlas 失败 : {matches[0]}");
+					}
+
+					var sprite = atlas.GetSprite(matches[1]);
+
+					if (sprite == null)
+					{
+						atlasHandle.Release();
+						throw new Exception($"异步加载 Sprite 失败 : {key}");
+					}
+
+					_obj2Handles.TryAdd(sprite, atlasHandle);
+
+					return sprite as T;
+				}
 			}
 
 			var handle = YooAssets.LoadAssetAsync<T>(key);
-			await handle;
-			if (handle.Status == EOperationStatus.Succeed)
-				return handle.GetAssetObject<T>();
 
-			Debug.LogError($"资源异步加载失败 : {key} , error : {handle.LastError}");
-			return null;
-		}
+			await handle.ToUniTask();
 
-		public override T Instantiate<T>(string key, Transform parent = null, bool instantiateInWorldSpace = false)
-		{
-			if (string.IsNullOrEmpty(key))
-			{
-				Debug.LogError("要实例化的资源的Key不能为 null 或 empty.");
-				return null;
-			}
+			if (handle.Status != EOperationStatus.Succeed)
+				throw new Exception($"异步加载资源失败 : {key}");
 
-			var handle = YooAssets.LoadAssetSync<T>(key);
-			if (handle.Status == EOperationStatus.Succeed)
-			{
-				if (typeof(T) == typeof(GameObject))
-					return handle.InstantiateSync(parent, instantiateInWorldSpace) as T;
+			var obj = handle.GetAssetObject<T>();
+			_obj2Handles.TryAdd(obj, handle);
 
-				var obj = handle.GetAssetObject<T>();
-				if (obj != null)
-					return Object.Instantiate(obj);
-			}
-
-			Debug.LogError($"同步实例化资源失败 : {key} , error : {handle.LastError}");
-			return null;
+			return obj;
 		}
 
 		public override async void InstantiateAsync<T>(string key, [NotNull] Action<T> callback, Transform parent = null, bool instantiateInWorldSpace = false)
@@ -172,50 +169,42 @@ namespace KiwiFramework.Runtime
 
 		public override async UniTask<T> InstantiateAsync<T>(string key, Transform parent = null, bool instantiateInWorldSpace = false)
 		{
-			if (string.IsNullOrEmpty(key))
-			{
-				Debug.LogError("要实例化的资源的Key不能为 null 或 empty.");
-				return null;
-			}
-
 			var handle = YooAssets.LoadAssetAsync<T>(key);
-			await handle;
-			if (handle.Status == EOperationStatus.Succeed)
-			{
-				if (typeof(T) == typeof(GameObject))
-				{
-					var instantiateHandle = handle.InstantiateAsync(parent, instantiateInWorldSpace);
-					await instantiateHandle;
-					if (instantiateHandle.Status == EOperationStatus.Succeed)
-						return instantiateHandle.Result as T;
 
-					Debug.LogError($"异步实例化资源失败 : {key} , error : {instantiateHandle.Error}");
-					return null;
+			await handle.ToUniTask();
+
+			if (handle.Status != EOperationStatus.Succeed)
+				throw new Exception($"异步加载资源失败 : {key}");
+
+			_obj2Handles.TryAdd(handle.AssetObject, handle);
+
+			if (typeof(T) == typeof(GameObject))
+			{
+				var instantiateHandle = handle.InstantiateAsync(parent, instantiateInWorldSpace);
+
+				await instantiateHandle.ToUniTask();
+
+				if (instantiateHandle.Status != EOperationStatus.Succeed)
+				{
+					Unload(handle.AssetObject);
+					throw new Exception($"异步实例化资源失败 : {key}");
 				}
 
-				var obj = handle.GetAssetObject<T>();
-				if (obj != null)
-					return Object.Instantiate(obj);
+				var clone = instantiateHandle.Result;
+				_clone2Handles.TryAdd(clone, instantiateHandle);
+				_clone2Objs.TryAdd(clone, handle.AssetObject);
+
+				return clone as T;
 			}
-
-			Debug.LogError($"异步实例化资源失败 : {key} , error : {handle.LastError}");
-			return null;
-		}
-
-		public override string LoadRawFileToText(string key)
-		{
-			if (string.IsNullOrEmpty(key))
+			else
 			{
-				Debug.LogError("要加载的资源的Key不能为 null 或 empty.");
-				return null;
+				var obj   = handle.AssetObject;
+				var clone = Object.Instantiate(obj);
+
+				_clone2Objs.TryAdd(clone, obj);
+
+				return clone as T;
 			}
-
-			var handle = YooAssets.LoadRawFileSync(key);
-			if (handle.Status == EOperationStatus.Succeed)
-				return handle.GetRawFileText();
-
-			Debug.LogError($"同步加载文本数据失败 : {key} , error : {handle.LastError}");
-			return null;
 		}
 
 		public override async void LoadRawFileToTextAsync(string key, [NotNull] Action<string> callback)
@@ -231,35 +220,18 @@ namespace KiwiFramework.Runtime
 
 		public override async UniTask<string> LoadRawFileToTextAsync(string key)
 		{
-			if (string.IsNullOrEmpty(key))
-			{
-				Debug.LogError("要加载的资源的Key不能为 null 或 empty.");
-				return null;
-			}
-
 			var handle = YooAssets.LoadRawFileAsync(key);
-			await handle;
+
+			await handle.ToUniTask();
+
 			if (handle.Status == EOperationStatus.Succeed)
-				return handle.GetRawFileText();
-
-			Debug.LogError($"同步加载文本数据失败 : {key} , error : {handle.LastError}");
-			return null;
-		}
-
-		public override byte[] LoadRawFileToBytes(string key)
-		{
-			if (string.IsNullOrEmpty(key))
 			{
-				Debug.LogError("要加载的资源的Key不能为 null 或 empty.");
-				return null;
+				var text = handle.GetRawFileText();
+				handle.Release();
+				return text;
 			}
 
-			var handle = YooAssets.LoadRawFileSync(key);
-			if (handle.Status == EOperationStatus.Succeed)
-				return handle.GetRawFileData();
-
-			Debug.LogError($"同步加载byte[]数据失败 : {key} , error : {handle.LastError}");
-			return null;
+			throw new Exception($"异步加载文本数据失败 : {key}");
 		}
 
 		public override async void LoadRawFileToBytesAsync(string key, [NotNull] Action<byte[]> callback)
@@ -272,27 +244,44 @@ namespace KiwiFramework.Runtime
 
 			callback.Invoke(bytes);
 		}
-		
+
 		public override async UniTask<byte[]> LoadRawFileToBytesAsync(string key)
 		{
-			if (string.IsNullOrEmpty(key))
+			var handle = YooAssets.LoadRawFileAsync(key);
+
+			await handle;
+
+			if (handle.Status == EOperationStatus.Succeed)
 			{
-				Debug.LogError("要加载的资源的Key不能为 null 或 empty.");
-				return null;
+				var bytes = handle.GetRawFileData();
+				handle.Release();
+				return bytes;
 			}
 
-			var handle = YooAssets.LoadRawFileAsync(key);
-			await handle;
-			if (handle.Status == EOperationStatus.Succeed)
-				return handle.GetRawFileData();
-
-			Debug.LogError($"同步加载文本数据失败 : {key} , error : {handle.LastError}");
-			return null;
+			throw new Exception($"同步加载文本数据失败 : {key}");
 		}
 
 		public override void Unload(Object obj)
 		{
-			
+			if (obj == null)
+				return;
+
+			_obj2Handles.Remove(obj, out var handle);
+
+			handle?.Release();
+		}
+
+		public override void Destroy(Object clone)
+		{
+			if (clone == null)
+				return;
+
+			_clone2Handles.Remove(clone);
+			_clone2Objs.Remove(clone, out var obj);
+
+			Object.Destroy(clone);
+
+			Unload(obj);
 		}
 
 		public override void UnloadUnusedAssets()

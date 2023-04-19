@@ -1,4 +1,6 @@
-﻿namespace KiwiFramework.Runtime.Utility
+﻿using UnityEngine;
+
+namespace KiwiFramework.Runtime.Utility
 {
 	/// <summary>
 	/// 码表工具
@@ -22,6 +24,13 @@
 		/// <summary>
 		/// 停止
 		/// </summary>
-		public void Stop() { _stopwatch.Stop(); }
+		/// <param name="showElapsedTime">是否打印耗时</param>
+		/// <param name="userData">自定义数据</param>
+		public void Stop(bool showElapsedTime = false, object userData = null)
+		{
+			_stopwatch.Stop();
+			if (showElapsedTime)
+				Debug.Log($"load [{userData}] : {ElapseMilliseconds}");
+		}
 	}
 }

@@ -4,7 +4,9 @@ using KiwiFramework.Runtime.UnityExtend;
 
 using Sirenix.OdinInspector;
 
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 using UnityEngine;
 
@@ -13,6 +15,7 @@ namespace KiwiFramework.Runtime.UI
 	/// <summary>
 	/// 容器类
 	/// </summary>
+	[HideMonoScript, AddComponentMenu("Kiwi/UI/UIContainer")]
 	public partial class UIContainer : UIElement
 	{
 		/// <summary>

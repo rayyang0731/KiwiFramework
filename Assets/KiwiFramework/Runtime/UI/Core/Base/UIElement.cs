@@ -94,38 +94,42 @@ namespace KiwiFramework.Runtime.UI
 		/// 在代码中使用的字段名
 		/// </summary>
 		[SerializeField, HideInInspector]
-		private string _fieldNameInCode = string.Empty;
+		private string fieldNameInCode = string.Empty;
 
 		/// <summary>
 		/// 在代码中使用的字段名
 		/// </summary>
 		[ShowInInspector, LabelText("字段名"), HorizontalGroup("base/fieldName", VisibleIf = nameof(CallInCode)),
-		 DisableIf(nameof(_lockFieldName)), Indent]
+		 DisableIf(nameof(hadFieldNameLocked)), Indent]
 		protected internal string FieldNameInCode
 		{
-			get => string.IsNullOrEmpty(_fieldNameInCode) ? gameObject.name : _fieldNameInCode;
-			set => _fieldNameInCode = value;
+			get => string.IsNullOrEmpty(fieldNameInCode) ? gameObject.name : fieldNameInCode;
+			set
+			{
+				if (!hadFieldNameLocked)
+					fieldNameInCode = value;
+			}
 		}
 
 		/// <summary>
 		/// 是否锁定字段名
 		/// </summary>
 		[SerializeField, HideInInspector]
-		private bool _lockFieldName = false;
+		private bool hadFieldNameLocked = false;
 
 		/// <summary>
 		/// 锁定字段名
 		/// </summary>
 		[HorizontalGroup("base/fieldName", Width = 20), ShowIf("@_lockFieldName == false"),
 		 Button(SdfIconType.LockFill, Name = ""), GUIColor(1, 0, 0)]
-		private void LockFieldName() { _lockFieldName = true; }
+		private void LockFieldName() { hadFieldNameLocked = true; }
 
 		/// <summary>
 		/// 解锁字段名
 		/// </summary>
 		[HorizontalGroup("base/fieldName", Width = 20), ShowIf("@_lockFieldName == true"),
 		 Button(SdfIconType.UnlockFill, Name = ""), GUIColor(0, 1, 1)]
-		private void UnlockFieldName() { _lockFieldName = false; }
+		private void UnlockFieldName() { hadFieldNameLocked = false; }
 
 		/// <summary>
 		/// 复制对象在代码中使用的字段名到剪贴板

@@ -1,7 +1,10 @@
 {
     "name": "KiwiFramework.Runtime",
     "rootNamespace": "KiwiFramework.Runtime",
-    "references": [],
+    "references": [
+        "UniTask",
+        "YooAsset"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

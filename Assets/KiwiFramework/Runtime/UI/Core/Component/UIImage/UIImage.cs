@@ -1,9 +1,6 @@
-using Cysharp.Threading.Tasks;
-
 using Sirenix.OdinInspector;
 
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace KiwiFramework.Runtime.UI
@@ -11,7 +8,7 @@ namespace KiwiFramework.Runtime.UI
 	/// <summary>
 	/// 可多状态图片显示组件
 	/// </summary>
-	[AddComponentMenu("Kiwi/UI/UIImage"), RequireComponent(typeof(RichImage)), HideMonoScript]
+	[AddComponentMenu("KiwiUI/UIImage"), RequireComponent(typeof(RichImage)), HideMonoScript]
 	public partial class UIImage : UIMultiStateElement<ImageStateData>, IGray
 	{
 		#region Image 属性
@@ -88,7 +85,7 @@ namespace KiwiFramework.Runtime.UI
 			{
 				if (Application.isPlaying)
 				{
-					sprite = await SpriteManager.Instance.GetSprite(data.spriteName);
+					sprite = await AssetLoader.LoadAsync<Sprite>(data.spriteName);
 				}
 				else
 				{
@@ -185,8 +182,7 @@ namespace KiwiFramework.Runtime.UI
 		{
 			if (Application.isPlaying)
 			{
-				if (SpriteManager.Exists)
-					SpriteManager.Instance.ReleaseSprite(sprite.name);
+				AssetLoader.Unload(sprite);
 			}
 
 			stateDataStore.Clear();
@@ -228,13 +224,10 @@ namespace KiwiFramework.Runtime.UI
 			stateDataStore.Clear();
 		}
 
-		[Button("置灰"),
-		 BoxGroup("Debug", CenterLabel = true, Order = 15)]
+		[Button("置灰"), BoxGroup("Debug", CenterLabel = true, Order = 15)]
 		private void Gray() { SetGray(true); }
 
-		[Button("取消置灰"),
-		 BoxGroup("Debug")]
-		private void UnGray() { SetGray(false); }
+		[Button("取消置灰"), BoxGroup("Debug")] private void UnGray() { SetGray(false); }
 	}
 #endif
 }

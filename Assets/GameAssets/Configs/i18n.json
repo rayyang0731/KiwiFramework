@@ -1,0 +1,177 @@
+[
+  {
+    "key": "MaxHP",
+    "zh_cn": "最大生命值",
+    "en": "MaxHP"
+  },
+  {
+    "key": "Damage",
+    "zh_cn": "攻击力",
+    "en": "Damage"
+  },
+  {
+    "key": "DamageLevel",
+    "zh_cn": "易伤等级",
+    "en": "DamageLevel"
+  },
+  {
+    "key": "DamageResistLevel",
+    "zh_cn": "减伤等级",
+    "en": "DamageResistLevel"
+  },
+  {
+    "key": "VampireLevel",
+    "zh_cn": "吸血等级",
+    "en": "VampireLevel"
+  },
+  {
+    "key": "ComboLevel",
+    "zh_cn": "连击等级",
+    "en": "ComboLevel"
+  },
+  {
+    "key": "CureLevel",
+    "zh_cn": "治疗等级",
+    "en": "CureLevel"
+  },
+  {
+    "key": "HolyResist",
+    "zh_cn": "神圣抗性",
+    "en": "HolyResist"
+  },
+  {
+    "key": "ShadowResist",
+    "zh_cn": "暗影抗性",
+    "en": "ShadowResist"
+  },
+  {
+    "key": "ThunderResist",
+    "zh_cn": "雷电抗性",
+    "en": "ThunderResist"
+  },
+  {
+    "key": "ArcaneResist",
+    "zh_cn": "奥术抗性",
+    "en": "ArcaneResist"
+  },
+  {
+    "key": "NatureResist",
+    "zh_cn": "自然抗性",
+    "en": "NatureResist"
+  },
+  {
+    "key": "FireResist",
+    "zh_cn": "火焰抗性",
+    "en": "FireResist"
+  },
+  {
+    "key": "IceResist",
+    "zh_cn": "冰霜抗性",
+    "en": "IceResist"
+  },
+  {
+    "key": "AllResist",
+    "zh_cn": "全部抗性",
+    "en": "AllResist"
+  },
+  {
+    "key": "AllLevel",
+    "zh_cn": "全部等级",
+    "en": "AllLevel"
+  },
+  {
+    "key": "ComboUp",
+    "zh_cn": "连击加成",
+    "en": "ComboUp"
+  },
+  {
+    "key": "TeamDamageLevel",
+    "zh_cn": "团队易伤等级",
+    "en": "TeamDamageLevel"
+  },
+  {
+    "key": "TeamPhysicResist",
+    "zh_cn": "团队物理抗性",
+    "en": "TeamPhysicResist"
+  },
+  {
+    "key": "TeamHolyResist",
+    "zh_cn": "团队神圣抗性",
+    "en": "TeamHolyResist"
+  },
+  {
+    "key": "TeamShadowResist",
+    "zh_cn": "团队暗影抗性",
+    "en": "TeamShadowResist"
+  },
+  {
+    "key": "TeamThunderResist",
+    "zh_cn": "团队雷电抗性",
+    "en": "TeamThunderResist"
+  },
+  {
+    "key": "TeamArcaneResist",
+    "zh_cn": "团队奥术抗性",
+    "en": "TeamArcaneResist"
+  },
+  {
+    "key": "TeamNatureResist",
+    "zh_cn": "团队自然抗性",
+    "en": "TeamNatureResist"
+  },
+  {
+    "key": "TeamFireResist",
+    "zh_cn": "团队火焰抗性",
+    "en": "TeamFireResist"
+  },
+  {
+    "key": "TeamIceResist",
+    "zh_cn": "团队冰霜抗性",
+    "en": "TeamIceResist"
+  },
+  {
+    "key": "IncreaseGreenDamage",
+    "zh_cn": "绿块技能伤害增益",
+    "en": "IncreaseGreenDamage"
+  },
+  {
+    "key": "IncreaseBlueDamage",
+    "zh_cn": "蓝块技能伤害增益",
+    "en": "IncreaseBlueDamage"
+  },
+  {
+    "key": "IncreasePurpleDamage",
+    "zh_cn": "紫块技能伤害增益",
+    "en": "IncreasePurpleDamage"
+  },
+  {
+    "key": "IncreaseOrangeDamage",
+    "zh_cn": "橙块技能伤害增益",
+    "en": "IncreaseOrangeDamage"
+  },
+  {
+    "key": "GreenFactor",
+    "zh_cn": "绿块技能系数增益",
+    "en": "GreenFactor"
+  },
+  {
+    "key": "BlueFactor",
+    "zh_cn": "蓝块技能系数增益",
+    "en": "BlueFactor"
+  },
+  {
+    "key": "PurpleFactor",
+    "zh_cn": "紫块技能系数增益",
+    "en": "PurpleFactor"
+  },
+  {
+    "key": "OrangeFactor",
+    "zh_cn": "橙块技能系数增益",
+    "en": "OrangeFactor"
+  },
+  {
+    "key": "RedFactor",
+    "zh_cn": "红块技能系数增益",
+    "en": "RedFactor"
+  }
+]

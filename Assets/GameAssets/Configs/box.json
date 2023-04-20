@@ -1,0 +1,42 @@
+[
+  {
+    "ID": 1,
+    "Name": "角斗士宝箱",
+    "Desc": "宝箱说明",
+    "Duration": 30,
+    "IconName": "icon_box_001",
+    "Diamond": 60
+  },
+  {
+    "ID": 2,
+    "Name": "莫米罗宝箱",
+    "Desc": "宝箱说明",
+    "Duration": 30,
+    "IconName": "icon_box_002",
+    "Diamond": 60
+  },
+  {
+    "ID": 3,
+    "Name": "色雷斯宝箱",
+    "Desc": "宝箱说明",
+    "Duration": 30,
+    "IconName": "icon_box_003",
+    "Diamond": 60
+  },
+  {
+    "ID": 4,
+    "Name": "塞拉蒂斯宝箱",
+    "Desc": "宝箱说明",
+    "Duration": 30,
+    "IconName": "icon_box_004",
+    "Diamond": 60
+  },
+  {
+    "ID": 5,
+    "Name": "斯巴达克斯宝箱",
+    "Desc": "宝箱说明",
+    "Duration": 30,
+    "IconName": "icon_box_005",
+    "Diamond": 60
+  }
+]

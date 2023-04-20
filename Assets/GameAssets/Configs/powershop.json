@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 1,
+    "Power": 30,
+    "Diamond": 30
+  },
+  {
+    "ID": 2,
+    "Power": 30,
+    "Diamond": 45
+  },
+  {
+    "ID": 3,
+    "Power": 30,
+    "Diamond": 60
+  },
+  {
+    "ID": 4,
+    "Power": 30,
+    "Diamond": 75
+  },
+  {
+    "ID": 5,
+    "Power": 30,
+    "Diamond": 90
+  },
+  {
+    "ID": 6,
+    "Power": 30,
+    "Diamond": 105
+  },
+  {
+    "ID": 7,
+    "Power": 30,
+    "Diamond": 120
+  },
+  {
+    "ID": 8,
+    "Power": 30,
+    "Diamond": 135
+  },
+  {
+    "ID": 9,
+    "Power": 30,
+    "Diamond": 150
+  },
+  {
+    "ID": 10,
+    "Power": 30,
+    "Diamond": 165
+  }
+]

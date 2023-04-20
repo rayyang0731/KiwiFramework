@@ -198,8 +198,6 @@ namespace KiwiFramework.Runtime.UI
 				return;
 
 			stateDataStore.Clear();
-
-			return;
 		}
 
 		/// <summary>

@@ -6,7 +6,7 @@ using UnityEngine;
 
 using Object = UnityEngine.Object;
 
-namespace KiwiFramework.Runtime
+namespace KiwiFramework.Runtime.AssetSystem
 {
 	public class UnityResourceHelper : BaseAssetHelper
 	{
@@ -38,7 +38,7 @@ namespace KiwiFramework.Runtime
 		/// 异步加载资源
 		/// </summary>
 		/// <param name="key">对象的key或者路径</param>
-		public async UniTask<T> LoadAsync<T>(string key) where T : Object
+		public override async UniTask<T> LoadAsync<T>(string key)
 		{
 			if (string.IsNullOrEmpty(key))
 			{
@@ -89,7 +89,7 @@ namespace KiwiFramework.Runtime
 		/// (T为GameObject类型时生效)
 		/// </param>
 		/// <returns></returns>
-		public async UniTask<T> InstantiateAsync<T>(string key, Transform parent = null, bool instantiateInWorldSpace = false) where T : Object
+		public override async UniTask<T> InstantiateAsync<T>(string key, Transform parent = null, bool instantiateInWorldSpace = false)
 		{
 			var obj = await LoadAsync<GameObject>(key);
 			if (obj == null)

@@ -31,10 +31,7 @@ namespace KiwiFramework.Runtime.UI
 		/// <summary>
 		/// 释放UI模糊材质
 		/// </summary>
-		public static void ReleaseBlurMaterial()
-		{
-			_blurMat    = null;
-		}
+		public static void ReleaseBlurMaterial() { _blurMat = null; }
 
 		public static Texture2D GetBlurTexture2D(Texture2D tex2D, int blurSize = 3)
 		{

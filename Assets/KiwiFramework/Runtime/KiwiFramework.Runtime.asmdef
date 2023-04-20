@@ -3,11 +3,15 @@
     "rootNamespace": "KiwiFramework.Runtime",
     "references": [
         "UniTask",
-        "YooAsset"
+        "YooAsset",
+        "Unity.TextMeshPro",
+        "LubanLib",
+        "KiwiFramework.GameConfig.Tables",
+        "zstring"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false,
+    "allowUnsafeCode": true,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,

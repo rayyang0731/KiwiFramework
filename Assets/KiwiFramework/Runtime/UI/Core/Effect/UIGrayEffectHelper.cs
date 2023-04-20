@@ -8,8 +8,6 @@ namespace KiwiFramework.Runtime.UI
 	/// </summary>
 	public static partial class UIEffectHelper
 	{
-		#region Gray
-
 		private static Material _grayMat;
 
 		public static Material GrayMaterial
@@ -54,7 +52,5 @@ namespace KiwiFramework.Runtime.UI
 				target.SetGray(value);
 			}
 		}
-
-		#endregion
 	}
 }

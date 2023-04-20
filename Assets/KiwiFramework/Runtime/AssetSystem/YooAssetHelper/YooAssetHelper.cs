@@ -98,6 +98,19 @@ namespace KiwiFramework.Runtime.AssetSystem
 			callback.Invoke();
 		}
 
+		public override T Load<T>(string key)
+		{
+			var handle = YooAssets.LoadAssetSync<T>(key);
+
+			if (handle.Status != EOperationStatus.Succeed)
+				throw new Exception($"同步加载资源失败 : {key}");
+
+			var obj = handle.GetAssetObject<T>();
+			_obj2Handles.TryAdd(obj, handle);
+
+			return obj;
+		}
+
 		public override async void LoadAsync<T>(string key, [NotNull] Action<T> callback)
 		{
 			if (callback == null) throw new ArgumentNullException(nameof(callback));
@@ -156,6 +169,33 @@ namespace KiwiFramework.Runtime.AssetSystem
 			return obj;
 		}
 
+		public override T Instantiate<T>(string key, Transform parent = null, bool instantiateInWorldSpace = false)
+		{
+			var handle = YooAssets.LoadAssetSync<T>(key);
+
+			if (handle.Status != EOperationStatus.Succeed)
+				throw new Exception($"同步加载资源失败 : {key}");
+
+			_obj2Handles.TryAdd(handle.AssetObject, handle);
+
+			if (typeof(T) == typeof(GameObject))
+			{
+				var clone = handle.InstantiateSync(parent, instantiateInWorldSpace);
+				_clone2Objs.TryAdd(clone, handle.AssetObject);
+
+				return clone as T;
+			}
+			else
+			{
+				var obj   = handle.AssetObject;
+				var clone = Object.Instantiate(obj);
+
+				_clone2Objs.TryAdd(clone, obj);
+
+				return clone as T;
+			}
+		}
+
 		public override async void InstantiateAsync<T>(string key, [NotNull] Action<T> callback, Transform parent = null, bool instantiateInWorldSpace = false)
 		{
 			if (callback == null) throw new ArgumentNullException(nameof(callback));
@@ -207,6 +247,20 @@ namespace KiwiFramework.Runtime.AssetSystem
 			}
 		}
 
+		public override string LoadRawFileToText(string key)
+		{
+			var handle = YooAssets.LoadRawFileSync(key);
+
+			if (handle.Status == EOperationStatus.Succeed)
+			{
+				var text = handle.GetRawFileText();
+				handle.Release();
+				return text;
+			}
+
+			throw new Exception($"异步加载文本数据失败 : {key}");
+		}
+
 		public override async void LoadRawFileToTextAsync(string key, [NotNull] Action<string> callback)
 		{
 			if (callback == null) throw new ArgumentNullException(nameof(callback));
@@ -232,6 +286,20 @@ namespace KiwiFramework.Runtime.AssetSystem
 			}
 
 			throw new Exception($"异步加载文本数据失败 : {key}");
+		}
+
+		public override byte[] LoadRawFileToBytes(string key)
+		{
+			var handle = YooAssets.LoadRawFileSync(key);
+
+			if (handle.Status == EOperationStatus.Succeed)
+			{
+				var bytes = handle.GetRawFileData();
+				handle.Release();
+				return bytes;
+			}
+
+			throw new Exception($"同步加载文本数据失败 : {key}");
 		}
 
 		public override async void LoadRawFileToBytesAsync(string key, [NotNull] Action<byte[]> callback)

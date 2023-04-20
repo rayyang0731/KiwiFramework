@@ -1,0 +1,247 @@
+[
+  {
+    "ID": 0,
+    "Name": {
+      "key": "MaxHP",
+      "text": "最大生命值"
+    }
+  },
+  {
+    "ID": 1,
+    "Name": {
+      "key": "Damage",
+      "text": "攻击力"
+    }
+  },
+  {
+    "ID": 2,
+    "Name": {
+      "key": "DamageLevel",
+      "text": "易伤等级"
+    }
+  },
+  {
+    "ID": 3,
+    "Name": {
+      "key": "DamageResistLevel",
+      "text": "减伤等级"
+    }
+  },
+  {
+    "ID": 4,
+    "Name": {
+      "key": "VampireLevel",
+      "text": "吸血等级"
+    }
+  },
+  {
+    "ID": 5,
+    "Name": {
+      "key": "ComboLevel",
+      "text": "连击等级"
+    }
+  },
+  {
+    "ID": 6,
+    "Name": {
+      "key": "CureLevel",
+      "text": "治疗等级"
+    }
+  },
+  {
+    "ID": 7,
+    "Name": {
+      "key": "HolyResist",
+      "text": "神圣抗性"
+    }
+  },
+  {
+    "ID": 8,
+    "Name": {
+      "key": "ShadowResist",
+      "text": "暗影抗性"
+    }
+  },
+  {
+    "ID": 9,
+    "Name": {
+      "key": "ThunderResist",
+      "text": "雷电抗性"
+    }
+  },
+  {
+    "ID": 10,
+    "Name": {
+      "key": "ArcaneResist",
+      "text": "奥术抗性"
+    }
+  },
+  {
+    "ID": 11,
+    "Name": {
+      "key": "NatureResist",
+      "text": "自然抗性"
+    }
+  },
+  {
+    "ID": 12,
+    "Name": {
+      "key": "FireResist",
+      "text": "火焰抗性"
+    }
+  },
+  {
+    "ID": 13,
+    "Name": {
+      "key": "IceResist",
+      "text": "冰霜抗性"
+    }
+  },
+  {
+    "ID": 14,
+    "Name": {
+      "key": "AllResist",
+      "text": "全部抗性"
+    }
+  },
+  {
+    "ID": 15,
+    "Name": {
+      "key": "AllLevel",
+      "text": "全部等级"
+    }
+  },
+  {
+    "ID": 16,
+    "Name": {
+      "key": "ComboUp",
+      "text": "连击加成"
+    }
+  },
+  {
+    "ID": 17,
+    "Name": {
+      "key": "TeamDamageLevel",
+      "text": "团队易伤等级"
+    }
+  },
+  {
+    "ID": 18,
+    "Name": {
+      "key": "TeamPhysicResist",
+      "text": "团队物理抗性"
+    }
+  },
+  {
+    "ID": 19,
+    "Name": {
+      "key": "TeamHolyResist",
+      "text": "团队神圣抗性"
+    }
+  },
+  {
+    "ID": 20,
+    "Name": {
+      "key": "TeamShadowResist",
+      "text": "团队暗影抗性"
+    }
+  },
+  {
+    "ID": 21,
+    "Name": {
+      "key": "TeamThunderResist",
+      "text": "团队雷电抗性"
+    }
+  },
+  {
+    "ID": 22,
+    "Name": {
+      "key": "TeamArcaneResist",
+      "text": "团队奥术抗性"
+    }
+  },
+  {
+    "ID": 23,
+    "Name": {
+      "key": "TeamNatureResist",
+      "text": "团队自然抗性"
+    }
+  },
+  {
+    "ID": 24,
+    "Name": {
+      "key": "TeamFireResist",
+      "text": "团队火焰抗性"
+    }
+  },
+  {
+    "ID": 25,
+    "Name": {
+      "key": "TeamIceResist",
+      "text": "团队冰霜抗性"
+    }
+  },
+  {
+    "ID": 26,
+    "Name": {
+      "key": "IncreaseGreenDamage",
+      "text": "绿块技能伤害增益"
+    }
+  },
+  {
+    "ID": 27,
+    "Name": {
+      "key": "IncreaseBlueDamage",
+      "text": "蓝块技能伤害增益"
+    }
+  },
+  {
+    "ID": 28,
+    "Name": {
+      "key": "IncreasePurpleDamage",
+      "text": "紫块技能伤害增益"
+    }
+  },
+  {
+    "ID": 29,
+    "Name": {
+      "key": "IncreaseOrangeDamage",
+      "text": "橙块技能伤害增益"
+    }
+  },
+  {
+    "ID": 30,
+    "Name": {
+      "key": "GreenFactor",
+      "text": "绿块技能系数增益"
+    }
+  },
+  {
+    "ID": 31,
+    "Name": {
+      "key": "BlueFactor",
+      "text": "蓝块技能系数增益"
+    }
+  },
+  {
+    "ID": 32,
+    "Name": {
+      "key": "PurpleFactor",
+      "text": "紫块技能系数增益"
+    }
+  },
+  {
+    "ID": 33,
+    "Name": {
+      "key": "OrangeFactor",
+      "text": "橙块技能系数增益"
+    }
+  },
+  {
+    "ID": 34,
+    "Name": {
+      "key": "RedFactor",
+      "text": "红块技能系数增益"
+    }
+  }
+]

@@ -2,6 +2,7 @@
 
 using Cysharp.Threading.Tasks;
 
+using KiwiFramework.Runtime.AssetSystem;
 using KiwiFramework.Runtime.Utility;
 
 using UnityEngine;

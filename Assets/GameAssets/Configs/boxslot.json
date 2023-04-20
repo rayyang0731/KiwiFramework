@@ -1,0 +1,62 @@
+[
+  {
+    "ID": 1,
+    "Condition": 0,
+    "Value": 0,
+    "Desc": ""
+  },
+  {
+    "ID": 2,
+    "Condition": 0,
+    "Value": 0,
+    "Desc": ""
+  },
+  {
+    "ID": 3,
+    "Condition": 0,
+    "Value": 0,
+    "Desc": ""
+  },
+  {
+    "ID": 4,
+    "Condition": 0,
+    "Value": 0,
+    "Desc": ""
+  },
+  {
+    "ID": 5,
+    "Condition": 0,
+    "Value": 0,
+    "Desc": ""
+  },
+  {
+    "ID": 6,
+    "Condition": 0,
+    "Value": 0,
+    "Desc": ""
+  },
+  {
+    "ID": 7,
+    "Condition": 0,
+    "Value": 0,
+    "Desc": ""
+  },
+  {
+    "ID": 8,
+    "Condition": 1,
+    "Value": 100,
+    "Desc": "使用100钻石开启"
+  },
+  {
+    "ID": 9,
+    "Condition": 2,
+    "Value": 0,
+    "Desc": "完成成就"
+  },
+  {
+    "ID": 10,
+    "Condition": 2,
+    "Value": 0,
+    "Desc": "获得收集品"
+  }
+]

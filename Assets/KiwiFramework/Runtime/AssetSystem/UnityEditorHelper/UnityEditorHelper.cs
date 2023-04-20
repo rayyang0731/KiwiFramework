@@ -10,7 +10,7 @@ using UnityEngine.Assertions;
 
 using Object = UnityEngine.Object;
 
-namespace KiwiFramework.Runtime
+namespace KiwiFramework.Runtime.AssetSystem
 {
 	public class UnityEditorHelper : BaseAssetHelper
 	{

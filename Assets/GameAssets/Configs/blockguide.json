@@ -1,0 +1,232 @@
+[
+  {
+    "ID": 1,
+    "Level": 3,
+    "BlockName": "土块",
+    "Icon": "icon_chunk_7",
+    "effect": "",
+    "Info1": "不会参与融合|点击后清除，回合-1",
+    "Desc": "最常见的阻挡物，数量少时候可以轻松应对，但多的时候你就可能面对些许的压力了",
+    "Evaluate": 1
+  },
+  {
+    "ID": 2,
+    "Level": 7,
+    "BlockName": "石块",
+    "Icon": "icon_chunk_8",
+    "effect": "",
+    "Info1": "不会参与融合|不可点击|临近的符石融合可清除",
+    "Desc": "可以说是土块的升级版，不能被点击消除可能会让你非常头疼，石块的出现会阻碍你的连击，并且随着数量增加你胜利希望将会越来越小",
+    "Evaluate": 2
+  },
+  {
+    "ID": 3,
+    "Level": 61,
+    "BlockName": "蜘蛛网",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_Among_5",
+    "Info1": "附着效果|不会参与融合|点击后清除，回合-1",
+    "Desc": "我真的很讨厌虫子，尤其是那种到处撒网的，呸。呸",
+    "Evaluate": 3
+  },
+  {
+    "ID": 4,
+    "Level": 16,
+    "BlockName": "铁块",
+    "Icon": "icon_chunk_9",
+    "effect": "",
+    "Info1": "不会参与融合|不可点击|五级符石融合可以清除",
+    "Desc": "哦，不！坚硬无比的铁块只有强大的五级符石融合的威力才可以消除，当然也不排除有些强力英雄的技能可以削铁如泥",
+    "Evaluate": 3
+  },
+  {
+    "ID": 5,
+    "Level": 0,
+    "BlockName": "宝箱",
+    "Icon": "icon_chunk_15",
+    "effect": "",
+    "Info1": "临近融合符石打开宝箱|不会参与融合|生命结束自然消除",
+    "Desc": "宝箱里会存放一些意向不到的物品，总之见到他时请赶紧打开，它可时会逃跑的哦！",
+    "Evaluate": 2
+  },
+  {
+    "ID": 6,
+    "Level": 20,
+    "BlockName": "迷",
+    "Icon": "icon_chunk_12",
+    "effect": "",
+    "Info1": "随机产生一个符石|不会参与融合|点击后触发效果，回合-1",
+    "Desc": "猜猜这次点击会出现个啥？献给爱赌博的你",
+    "Evaluate": 6
+  },
+  {
+    "ID": 7,
+    "Level": 26,
+    "BlockName": "炸弹",
+    "Icon": "icon_chunk_13",
+    "effect": "",
+    "Info1": "摧毁四方向的任何块|不会参与融合|点击后触发效果，回合-1",
+    "Desc": "BOOM!合理的运用小炸弹会带来非常好的效果 B O O M!",
+    "Evaluate": 1
+  },
+  {
+    "ID": 8,
+    "Level": 41,
+    "BlockName": "中毒",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_Among_1",
+    "Info1": "附着效果|降低我方攻击|点击后清除，回合-1|融合可以清除",
+    "Desc": "有毒！别碰",
+    "Evaluate": 3
+  },
+  {
+    "ID": 9,
+    "Level": 51,
+    "BlockName": "冰冻",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_Among_3",
+    "Info1": "附着效果|融合触发失效|不可点击|融合可以清除",
+    "Desc": "你现在已经先擦干鼻涕再考虑符石是否触发了技能的问题",
+    "Evaluate": 5
+  },
+  {
+    "ID": 10,
+    "Level": 31,
+    "BlockName": "大炸弹",
+    "Icon": "icon_chunk_14",
+    "effect": "",
+    "Info1": "摧毁四方向的任何块|不会参与融合|点击后触发效果，回合-1",
+    "Desc": "BOOM!BOOM!大炸弹的威力不太可控，有时会炸到一些你不想去除的符石，请小心使用！BOOM!BOOM!",
+    "Evaluate": 2
+  },
+  {
+    "ID": 11,
+    "Level": 76,
+    "BlockName": "暗之种",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_Among_7",
+    "Info1": "附着效果|将符石变成土块或石块|不会参与融合|点击触发效果，回合-1",
+    "Desc": "世界树轮回时候撒下的种子，黑暗带来绝望",
+    "Evaluate": 4
+  },
+  {
+    "ID": 12,
+    "Level": 71,
+    "BlockName": "光之种",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_Among_8",
+    "Info1": "附着效果|将土块或石块变为符石|不会参与融合|点击触发效果，回合-1",
+    "Desc": "世界树轮回时候撒下的种子，光明带来希望",
+    "Evaluate": 1
+  },
+  {
+    "ID": 13,
+    "Level": 46,
+    "BlockName": "燃烧",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_Among_2",
+    "Info1": "附着效果|每回合掉血|每回合减少防御力|点击后清除，回合-1|融合可以清除",
+    "Desc": "你浑身燃烧起来，火焰在血液中噼啪作响。",
+    "Evaluate": 3
+  },
+  {
+    "ID": 14,
+    "Level": 60,
+    "BlockName": "束缚",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_Among_4_1",
+    "Info1": "附着效果|不会参与融合|不可点击|不可移动|临近的符石融合可清除",
+    "Desc": "SM！不解释，把你咔咔锁上！",
+    "Evaluate": 4
+  },
+  {
+    "ID": 15,
+    "Level": 86,
+    "BlockName": "邪魂",
+    "Icon": "icon_chunk_11",
+    "effect": "",
+    "Info1": "降低四方向符石等级|不会参与融合|点击后清除，回合-1",
+    "Desc": "邪魂是魔鬼腐蚀世界的产物，当你触碰他的时候，感觉人生都不美好了",
+    "Evaluate": 3
+  },
+  {
+    "ID": 16,
+    "Level": 91,
+    "BlockName": "圣魂",
+    "Icon": "icon_chunk_16",
+    "effect": "",
+    "Info1": "提升四方向符石等级|不会参与融合|点击后清除，回合-1",
+    "Desc": "圣魂是神为信仰者准备的礼物，一旦激活，威力无边，它会加速你产生高等级块的效率",
+    "Evaluate": 3
+  },
+  {
+    "ID": 17,
+    "Level": 96,
+    "BlockName": "美杜莎",
+    "Icon": "icon_chunk_10",
+    "effect": "",
+    "Info1": "随机将符石变为石块|不会参与融合|不可点击|生命结束自然消除",
+    "Desc": "传说中当你被美杜莎盯上的时候，她就会爱上你，当然不是了，会把你石化，我们已经很善良把他改成只会石化你的符石，不要太感谢我",
+    "Evaluate": 4
+  },
+  {
+    "ID": 18,
+    "Level": 66,
+    "BlockName": "诅咒",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_Among_6",
+    "Info1": "附着效果|降低我方防御|不会参与融合|点击后触发，回合-1",
+    "Desc": "诅咒！我需要一个牧师",
+    "Evaluate": 5
+  },
+  {
+    "ID": 19,
+    "Level": 151,
+    "BlockName": "好声音",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_YD_1",
+    "Info1": "上层效果|音符会阻挡消除的所有操作|对着话筒狂吼吧",
+    "Desc": "欢迎来到符石好声音，如果唱的好，你心仪的导师会为你转身，我仿佛能感到你在公共场合下玩这游戏时的尴尬，噗（笑）",
+    "Evaluate": 6
+  },
+  {
+    "ID": 20,
+    "Level": 152,
+    "BlockName": "接电话",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_YD_2",
+    "Info1": "上层效果|来电显示会阻挡消除区的所有操作|挂断",
+    "Desc": "来自妈妈的关爱，你怎么忍心挂掉，虽然不是你的妈妈",
+    "Evaluate": 4
+  },
+  {
+    "ID": 21,
+    "Level": 153,
+    "BlockName": "马赛克",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_YD_3",
+    "Info1": "上层效果|附着在符石上的马赛克会阻挡你的视线|随时间流逝消失",
+    "Desc": "其实还是能看到底下的符石，一股看小电影时的既视感",
+    "Evaluate": 3
+  },
+  {
+    "ID": 22,
+    "Level": 6,
+    "BlockName": "粉碎",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_YD_4",
+    "Info1": "上层效果|除了心理伤害不会造成任何影响|随时间流逝消失",
+    "Desc": "不要尝试给客服打电话说手机因为玩游戏屏碎了，他们只会感觉你像一个疯子",
+    "Evaluate": 1
+  },
+  {
+    "ID": 23,
+    "Level": 155,
+    "BlockName": "摇一摇",
+    "Icon": "icon_chunk_8",
+    "effect": "2dEffect_YD_5",
+    "Info1": "上层效果|阻挡你消除所有操作|摇晃手机",
+    "Desc": "摇晃时，请小心，手机飞出去我们也是不赔的",
+    "Evaluate": 4
+  }
+]

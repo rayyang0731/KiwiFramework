@@ -1,0 +1,452 @@
+[
+  {
+    "ID": 3,
+    "Name": "地震",
+    "Icon": "icon_skill_003",
+    "MaxLevel": 10,
+    "Desc": "造成自身攻击力A%的物理伤害，并有10%的几率清除己方5个骷髅块",
+    "A": 25,
+    "B": 1
+  },
+  {
+    "ID": 5,
+    "Name": "奉献",
+    "Icon": "icon_skill_005",
+    "MaxLevel": 10,
+    "Desc": "每秒造成自身攻击力A%的神圣伤害，并每秒恢复己方自身攻击力10%的生命值，持续5秒",
+    "A": 15,
+    "B": 1
+  },
+  {
+    "ID": 8,
+    "Name": "审判",
+    "Icon": "icon_skill_008",
+    "MaxLevel": 10,
+    "Desc": "造成自身攻击力A%的火焰伤害，并增加己方100火焰抗性，持续10秒",
+    "A": 25,
+    "B": 1
+  },
+  {
+    "ID": 15,
+    "Name": "骤雨",
+    "Icon": "icon_skill_015",
+    "MaxLevel": 10,
+    "Desc": "造成自身攻击力A%的物理伤害，并有25%的几率清除己方一个墓碑块",
+    "A": 25,
+    "B": 1
+  },
+  {
+    "ID": 18,
+    "Name": "魂锁",
+    "Icon": "icon_skill_018",
+    "MaxLevel": 10,
+    "Desc": "造成自身攻击力A%的暗影伤害，并清除一个邪魂",
+    "A": 25,
+    "B": 1
+  },
+  {
+    "ID": 101,
+    "Name": "体魄",
+    "Icon": "icon_skill_101",
+    "MaxLevel": 20,
+    "Desc": "增加英雄的基础生命值，每级增加3点生命值",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 102,
+    "Name": "技巧",
+    "Icon": "icon_skill_102",
+    "MaxLevel": 20,
+    "Desc": "增加英雄的基础攻击力，每级增加1点攻击力",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 103,
+    "Name": "易伤等级",
+    "Icon": "icon_skill_103",
+    "MaxLevel": 5,
+    "Desc": "易伤等级+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 104,
+    "Name": "减伤等级",
+    "Icon": "icon_skill_104",
+    "MaxLevel": 5,
+    "Desc": "减伤等级+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 105,
+    "Name": "吸血等级",
+    "Icon": "icon_skill_105",
+    "MaxLevel": 5,
+    "Desc": "吸血等级+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 106,
+    "Name": "连击等级",
+    "Icon": "icon_skill_106",
+    "MaxLevel": 5,
+    "Desc": "连击等级+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 107,
+    "Name": "治疗等级",
+    "Icon": "icon_skill_107",
+    "MaxLevel": 5,
+    "Desc": "治疗等级+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 108,
+    "Name": "神圣抗性",
+    "Icon": "icon_skill_108",
+    "MaxLevel": 10,
+    "Desc": "神圣抗性+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 109,
+    "Name": "暗影抗性",
+    "Icon": "icon_skill_109",
+    "MaxLevel": 10,
+    "Desc": "暗影抗性+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 110,
+    "Name": "雷电抗性",
+    "Icon": "icon_skill_110",
+    "MaxLevel": 10,
+    "Desc": "雷电抗性+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 111,
+    "Name": "奥术抗性",
+    "Icon": "icon_skill_111",
+    "MaxLevel": 10,
+    "Desc": "奥术抗性+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 112,
+    "Name": "自然抗性",
+    "Icon": "icon_skill_112",
+    "MaxLevel": 10,
+    "Desc": "自然抗性+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 113,
+    "Name": "火焰抗性",
+    "Icon": "icon_skill_113",
+    "MaxLevel": 10,
+    "Desc": "火焰抗性+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 114,
+    "Name": "冰霜抗性",
+    "Icon": "icon_skill_114",
+    "MaxLevel": 10,
+    "Desc": "冰霜抗性+A",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 201,
+    "Name": "",
+    "Icon": "icon_skill_201",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 1,
+    "B": 0
+  },
+  {
+    "ID": 202,
+    "Name": "",
+    "Icon": "icon_skill_202",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 203,
+    "Name": "",
+    "Icon": "icon_skill_203",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 204,
+    "Name": "",
+    "Icon": "icon_skill_204",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 205,
+    "Name": "",
+    "Icon": "icon_skill_205",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 206,
+    "Name": "",
+    "Icon": "icon_skill_206",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 207,
+    "Name": "",
+    "Icon": "icon_skill_207",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 208,
+    "Name": "",
+    "Icon": "icon_skill_208",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 209,
+    "Name": "",
+    "Icon": "icon_skill_209",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 210,
+    "Name": "",
+    "Icon": "icon_skill_210",
+    "MaxLevel": 10,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 301,
+    "Name": "暴食",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害，并恢复己方自身攻击力10%的生命值",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 302,
+    "Name": "穿刺",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 303,
+    "Name": "锤",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 304,
+    "Name": "呆呆凝视",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 305,
+    "Name": "弹雨",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 306,
+    "Name": "刀光",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 307,
+    "Name": "黑暗治疗",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "恢复己方自身攻击力15%的生命值",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 308,
+    "Name": "回旋镖",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 309,
+    "Name": "火球",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 310,
+    "Name": "激光",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 311,
+    "Name": "寄生",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "每秒造成自身攻击力10%的物理伤害，持续10秒",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 312,
+    "Name": "剑波",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 313,
+    "Name": "剑波+锤",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力15%的物理伤害*2",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 314,
+    "Name": "箭雨",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 315,
+    "Name": "口水",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 316,
+    "Name": "扔石头",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 317,
+    "Name": "熔岩刀光",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 318,
+    "Name": "双刀光",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 319,
+    "Name": "双爪",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 320,
+    "Name": "杂耍",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  },
+  {
+    "ID": 321,
+    "Name": "爪击",
+    "Icon": "",
+    "MaxLevel": 0,
+    "Desc": "造成自身攻击力25%的物理伤害",
+    "A": 0,
+    "B": 0
+  }
+]

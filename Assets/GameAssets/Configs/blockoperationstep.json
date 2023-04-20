@@ -1,0 +1,164 @@
+[
+  {
+    "ID": 1,
+    "X": 2,
+    "Y": 1,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 37,
+    "NextStep": 2
+  },
+  {
+    "ID": 2,
+    "X": 3,
+    "Y": 1,
+    "OperationType": 1,
+    "Pause": true,
+    "TriggerGuide": 38,
+    "NextStep": 3
+  },
+  {
+    "ID": 3,
+    "X": 3,
+    "Y": 2,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 39,
+    "NextStep": 4
+  },
+  {
+    "ID": 4,
+    "X": 4,
+    "Y": 2,
+    "OperationType": 1,
+    "Pause": true,
+    "TriggerGuide": 40,
+    "NextStep": 5
+  },
+  {
+    "ID": 5,
+    "X": 4,
+    "Y": 3,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 41,
+    "NextStep": 6
+  },
+  {
+    "ID": 6,
+    "X": 5,
+    "Y": 3,
+    "OperationType": 1,
+    "Pause": true,
+    "TriggerGuide": 42,
+    "NextStep": 7
+  },
+  {
+    "ID": 7,
+    "X": 5,
+    "Y": 4,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 43,
+    "NextStep": 8
+  },
+  {
+    "ID": 8,
+    "X": 6,
+    "Y": 4,
+    "OperationType": 1,
+    "Pause": true,
+    "TriggerGuide": 44,
+    "NextStep": 9
+  },
+  {
+    "ID": 9,
+    "X": 2,
+    "Y": 5,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 45,
+    "NextStep": 10
+  },
+  {
+    "ID": 10,
+    "X": 1,
+    "Y": 5,
+    "OperationType": 1,
+    "Pause": true,
+    "TriggerGuide": 46,
+    "NextStep": 0
+  },
+  {
+    "ID": 12,
+    "X": 1,
+    "Y": 3,
+    "OperationType": 0,
+    "Pause": true,
+    "TriggerGuide": 49,
+    "NextStep": 13
+  },
+  {
+    "ID": 13,
+    "X": 2,
+    "Y": 3,
+    "OperationType": 1,
+    "Pause": true,
+    "TriggerGuide": 54,
+    "NextStep": 14
+  },
+  {
+    "ID": 14,
+    "X": -1,
+    "Y": -1,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 58,
+    "NextStep": 0
+  },
+  {
+    "ID": 15,
+    "X": 5,
+    "Y": 1,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 61,
+    "NextStep": 16
+  },
+  {
+    "ID": 16,
+    "X": -1,
+    "Y": -1,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 70,
+    "NextStep": 0
+  },
+  {
+    "ID": 17,
+    "X": 3,
+    "Y": 3,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 75,
+    "NextStep": 18
+  },
+  {
+    "ID": 18,
+    "X": -1,
+    "Y": -1,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 81,
+    "NextStep": 0
+  },
+  {
+    "ID": 19,
+    "X": -1,
+    "Y": -1,
+    "OperationType": 0,
+    "Pause": false,
+    "TriggerGuide": 83,
+    "NextStep": 0
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "ID": 1,
+    "Name": "铁处女",
+    "SceneID": 9,
+    "MatchStoreID": 1001,
+    "BattleTime": 300,
+    "HPFactor": 0,
+    "DamageFactor": 0
+  },
+  {
+    "ID": 2,
+    "Name": "爆弹地狱",
+    "SceneID": 7,
+    "MatchStoreID": 1001,
+    "BattleTime": 300,
+    "HPFactor": 0,
+    "DamageFactor": 0
+  },
+  {
+    "ID": 3,
+    "Name": "伊甸园",
+    "SceneID": 5,
+    "MatchStoreID": 1001,
+    "BattleTime": 300,
+    "HPFactor": 0,
+    "DamageFactor": 0
+  },
+  {
+    "ID": 4,
+    "Name": "美杜莎之眼",
+    "SceneID": 11,
+    "MatchStoreID": 1001,
+    "BattleTime": 300,
+    "HPFactor": 0,
+    "DamageFactor": 0
+  },
+  {
+    "ID": 5,
+    "Name": "赌博",
+    "SceneID": 17,
+    "MatchStoreID": 1001,
+    "BattleTime": 300,
+    "HPFactor": 0,
+    "DamageFactor": 0
+  },
+  {
+    "ID": 6,
+    "Name": "光明与黑暗",
+    "SceneID": 15,
+    "MatchStoreID": 1001,
+    "BattleTime": 300,
+    "HPFactor": 0,
+    "DamageFactor": 0
+  }
+]

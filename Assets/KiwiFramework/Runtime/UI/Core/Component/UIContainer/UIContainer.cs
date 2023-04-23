@@ -80,6 +80,7 @@ namespace KiwiFramework.Runtime.UI
 		{
 			if (DoCollect())
 			{
+				// 如果是Prefab则保存Prefab,如果还不是Prefab就返回
 				var prefabAssetType = PrefabUtility.GetPrefabAssetType(gameObject);
 				if (prefabAssetType != PrefabAssetType.Regular) return;
 
@@ -87,6 +88,13 @@ namespace KiwiFramework.Runtime.UI
 				AssetDatabase.SaveAssets();
 			}
 		}
+
+		/// <summary>
+		/// 生成预设和代码
+		/// </summary>
+		[ResponsiveButtonGroup("collector/button"),
+		 Button(SdfIconType.TerminalFill, "生成预设和代码", ButtonHeight = 40), GUIColor(0, 1, 0)]
+		public virtual void Generate() { }
 
 		private static bool GetElements(Transform parent, List<UIElement> elements, Dictionary<string, Transform> nameList)
 		{
@@ -130,8 +138,11 @@ namespace KiwiFramework.Runtime.UI
 					nameList.Add(comp.FieldNameInCode, child);
 				}
 
-				if (comp is UIContainer)
+				if (comp is UIContainer container)
+				{
+					container.DoCollect();
 					continue;
+				}
 
 				isNotUIElement :
 

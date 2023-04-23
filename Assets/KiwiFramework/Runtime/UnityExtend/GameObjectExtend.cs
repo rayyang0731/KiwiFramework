@@ -21,7 +21,7 @@ namespace KiwiFramework.Runtime.UnityExtend
 		/// <param name="exist">想要获取的组件是否存在</param>
 		/// <typeparam name="T">目标组件必须继承自 Component</typeparam>
 		/// <returns>目标组件</returns>
-		public static T ForceGetComponent<T>(this GameObject go, out bool exist) where T : Component
+		public static T ForceGetComponent<T>(this GameObject go, out bool exist) where T : UnityEngine.Component
 		{
 			var result = go.GetComponent<T>();
 			if (result != null)
@@ -41,7 +41,7 @@ namespace KiwiFramework.Runtime.UnityExtend
 		/// <param name="go">被扩展的对象</param>
 		/// <typeparam name="T">目标组件必须继承自 Component</typeparam>
 		/// <returns>目标组件</returns>
-		public static T ForceGetComponent<T>(this GameObject go) where T : Component => go.ForceGetComponent<T>(out _);
+		public static T ForceGetComponent<T>(this GameObject go) where T : UnityEngine.Component => go.ForceGetComponent<T>(out _);
 
 		/// <summary>
 		/// 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
@@ -50,7 +50,7 @@ namespace KiwiFramework.Runtime.UnityExtend
 		/// <param name="type">目标组件必须继承自Component,需要带命名空间的完整名称</param>
 		/// <param name="exist">想要获取的组件是否存在</param>
 		/// <returns>目标组件</returns>
-		public static Component ForceGetComponent(this GameObject go, string type, out bool exist)
+		public static UnityEngine.Component ForceGetComponent(this GameObject go, string type, out bool exist)
 		{
 			var componentType = System.Type.GetType(type);
 
@@ -73,7 +73,7 @@ namespace KiwiFramework.Runtime.UnityExtend
 		/// <param name="go">被扩展的对象</param>
 		/// <param name="type">目标组件必须继承自Component,需要带命名空间的完整名称</param>
 		/// <returns>目标组件</returns>
-		public static Component ForceGetComponent(this GameObject go, string type) => go.ForceGetComponent(type, out _);
+		public static UnityEngine.Component ForceGetComponent(this GameObject go, string type) => go.ForceGetComponent(type, out _);
 
 		/// <summary>
 		/// 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
@@ -82,7 +82,7 @@ namespace KiwiFramework.Runtime.UnityExtend
 		/// <param name="type">目标组件必须继承自Component</param>
 		/// <param name="exist">想要获取的组件是否存在</param>
 		/// <returns>目标组件</returns>
-		public static Component ForceGetComponent(this GameObject go, System.Type type, out bool exist)
+		public static UnityEngine.Component ForceGetComponent(this GameObject go, System.Type type, out bool exist)
 		{
 			var result = go.GetComponent(type);
 			if (result != null)
@@ -103,7 +103,7 @@ namespace KiwiFramework.Runtime.UnityExtend
 		/// <param name="go">被扩展的对象</param>
 		/// <param name="type">目标组件必须继承自Component</param>
 		/// <returns>目标组件</returns>
-		public static Component ForceGetComponent(this GameObject go, System.Type type) => go.ForceGetComponent(type, out _);
+		public static UnityEngine.Component ForceGetComponent(this GameObject go, System.Type type) => go.ForceGetComponent(type, out _);
 
 		/// <summary>
 		/// 设置 GameObject 的 Layer

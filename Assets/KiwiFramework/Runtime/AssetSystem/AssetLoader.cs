@@ -46,7 +46,7 @@ namespace KiwiFramework.Runtime
 			get
 			{
 				if (_assetHelper == null)
-					Debug.LogError("游戏资源加载辅助器无效.");
+					Debug.LogError($"游戏资源加载辅助器无效.请先调用{nameof(SetAssetHelper)}方法,进行初始化.");
 				return _assetHelper;
 			}
 		}

@@ -15,10 +15,10 @@ namespace KiwiFramework.Runtime
 		public void AddListener<TEvent>(Action<IEventMessage> listener) where TEvent : IEventMessage
 		{
 			var eventType = typeof(TEvent);
-			if (_cachedListener.ContainsKey(eventType) == false)
+			if (!_cachedListener.ContainsKey(eventType))
 				_cachedListener.Add(eventType, new List<Action<IEventMessage>>());
 
-			if (_cachedListener[eventType].Contains(listener) == false)
+			if (!_cachedListener[eventType].Contains(listener))
 			{
 				_cachedListener[eventType].Add(listener);
 				EventSystem.AddListener(eventType, listener);
@@ -27,6 +27,23 @@ namespace KiwiFramework.Runtime
 			{
 				Debug.LogWarning($"事件监听已经存在 : {eventType}");
 			}
+		}
+
+		/// <summary>
+		/// 移除一个监听
+		/// </summary>
+		public void RemoveListener<TEvent>(Action<IEventMessage> listener) where TEvent : IEventMessage
+		{
+			var eventType = typeof(TEvent);
+
+			if (!_cachedListener.ContainsKey(eventType) || !_cachedListener[eventType].Contains(listener))
+			{
+				Debug.LogWarning($"事件不存在监听 : {eventType}");
+				return;
+			}
+
+			_cachedListener[eventType].Remove(listener);
+			EventSystem.RemoveListener(eventType, listener);
 		}
 
 		/// <summary>

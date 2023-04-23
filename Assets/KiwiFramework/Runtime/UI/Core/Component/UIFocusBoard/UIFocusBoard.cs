@@ -116,7 +116,7 @@ namespace KiwiFramework.Runtime.UI
 		/// 添加子面板
 		/// </summary>
 		/// <param name="child">要添加的子面板</param>
-		public void AddChildBoard(Component child)
+		public void AddChildBoard(UnityEngine.Component child)
 		{
 			if (child == null)
 				return;
@@ -141,7 +141,7 @@ namespace KiwiFramework.Runtime.UI
 		/// 移除子面板
 		/// </summary>
 		/// <param name="child">要移除的子面板</param>
-		public void RemoveChildBoard(Component child)
+		public void RemoveChildBoard(UnityEngine.Component child)
 		{
 			if (child == null)
 				return;

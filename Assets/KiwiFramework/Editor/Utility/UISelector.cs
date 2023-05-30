@@ -2,6 +2,7 @@
 using System.Linq;
 
 using UnityEditor;
+using UnityEditor.Experimental.SceneManagement;
 using UnityEditor.SceneManagement;
 
 using UnityEngine;
@@ -77,6 +78,12 @@ namespace KiwiFramework.Editor.Utility
 			{
 				yield return SceneManager.GetSceneAt(i);
 			}
+
+			var temp = new GameObject("uiselector");
+			Object.DontDestroyOnLoad(temp);
+			yield return temp.scene;
+
+			Object.DestroyImmediate(temp);
 
 			var prefabStage = PrefabStageUtility.GetCurrentPrefabStage();
 			if (prefabStage != null)

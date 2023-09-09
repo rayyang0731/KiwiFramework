@@ -1,0 +1,1458 @@
+[
+  {
+    "ID": 1,
+    "Name": "短剑",
+    "IconPath": "icon_cimelia_001_01",
+    "TypeName": "武器架",
+    "TypeBgName": "Collect_04",
+    "Type": 1,
+    "Order": 1,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 29,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "增加绿块技能伤害+10%",
+    "Story": "最常规的短剑，非常适合人类使用，但这把已经破破烂烂了",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_001_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 2,
+    "Name": "大斧",
+    "IconPath": "icon_cimelia_001_02",
+    "TypeName": "武器架",
+    "TypeBgName": "Collect_04",
+    "Type": 1,
+    "Order": 2,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 30,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "增加蓝块技能伤害+10%",
+    "Story": "高原人常使用的重型武器",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_001_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 3,
+    "Name": "铁锤",
+    "IconPath": "icon_cimelia_001_03",
+    "TypeName": "武器架",
+    "TypeBgName": "Collect_04",
+    "Type": 1,
+    "Order": 3,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 31,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "增加紫块技能伤害+10%",
+    "Story": "巨大的异形武器，没人可以挥动。曾经属于一个臃肿的巨型僵尸，但究竟是谁打造了这把武器仍无人知晓。",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_001_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 4,
+    "Name": "弓箭",
+    "IconPath": "icon_cimelia_001_04",
+    "TypeName": "武器架",
+    "TypeBgName": "Collect_04",
+    "Type": 1,
+    "Order": 4,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 32,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "增加橙块技能伤害+10%",
+    "Story": "常见的远程武器之一，猎人们的最爱",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_001_04",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 5,
+    "Name": "回旋镖",
+    "IconPath": "icon_cimelia_001_05",
+    "TypeName": "武器架",
+    "TypeBgName": "Collect_04",
+    "Type": 1,
+    "Order": 5,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 29,
+        "value": 10
+      },
+      {
+        "id": 32,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "增加绿橙块技能伤害+10%",
+    "Story": "回旋镖大部分时候只是个消耗类道具，因为一飞出去很难找回来",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_001_05",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 6,
+    "Name": "菜刀",
+    "IconPath": "icon_cimelia_001_06",
+    "TypeName": "武器架",
+    "TypeBgName": "Collect_04",
+    "Type": 1,
+    "Order": 6,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 30,
+        "value": 10
+      },
+      {
+        "id": 31,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "增加蓝紫块技能伤害+10%",
+    "Story": "苏菲亚的料理菜刀，不知道为什么就特别强！",
+    "Condition": 0,
+    "Diomand": 1000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_001_06",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 7,
+    "Name": "水晶符文剑柄",
+    "IconPath": "icon_cimelia_001_07",
+    "TypeName": "武器架",
+    "TypeBgName": "Collect_04",
+    "Type": 1,
+    "Order": 7,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 29,
+        "value": 10
+      },
+      {
+        "id": 32,
+        "value": 10
+      },
+      {
+        "id": 30,
+        "value": 10
+      },
+      {
+        "id": 31,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "增加绿蓝紫橙块技能伤害+10%",
+    "Story": "用符石作为素材炼金出的水晶剑，具有强力的魔法加持但非常脆弱，不适合当武器",
+    "Condition": 6,
+    "Diomand": 5000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_001_07",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 8,
+    "Name": "小僵尸头颅",
+    "IconPath": "icon_cimelia_002_01",
+    "TypeName": "吧台装饰",
+    "TypeBgName": "Collect_05",
+    "Type": 2,
+    "Order": 8,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 0,
+        "value": 80
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "总生命值增加80",
+    "Story": "僵尸的脑袋做装饰，你是不是疯了",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_002_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 9,
+    "Name": "损坏的恶魔角",
+    "IconPath": "icon_cimelia_002_02",
+    "TypeName": "吧台装饰",
+    "TypeBgName": "Collect_05",
+    "Type": 2,
+    "Order": 9,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 0,
+        "value": 200
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "总生命值增加200",
+    "Story": "恶魔角的角质地非常坚硬，这只一定是经过一场激战才会损坏成这个样子",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_002_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 10,
+    "Name": "萤火虫吊灯",
+    "IconPath": "icon_cimelia_002_03",
+    "TypeName": "吧台装饰",
+    "TypeBgName": "Collect_05",
+    "Type": 2,
+    "Order": 10,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 0,
+        "value": 500
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "总生命值增加500",
+    "Story": "魔法森林的萤火虫寿命极长，非常适合做成小夜灯，还很浪漫",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_002_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 11,
+    "Name": "降温的冰坨坨",
+    "IconPath": "icon_cimelia_002_04",
+    "TypeName": "吧台装饰",
+    "TypeBgName": "Collect_05",
+    "Type": 2,
+    "Order": 11,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 0,
+        "value": 1000
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "总生命值增加1000",
+    "Story": "不化冰吊式一般夏天会被摆放在房间内用于降温",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_002_04",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 12,
+    "Name": "铁火盆",
+    "IconPath": "icon_cimelia_002_05",
+    "TypeName": "吧台装饰",
+    "TypeBgName": "Collect_05",
+    "Type": 2,
+    "Order": 12,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 0,
+        "value": 2000
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "总生命值增加2000",
+    "Story": "铁火盆中燃烧的余烬见证着不死人的一次次重生",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_002_05",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 13,
+    "Name": "皇室吊灯",
+    "IconPath": "icon_cimelia_002_06",
+    "TypeName": "吧台装饰",
+    "TypeBgName": "Collect_05",
+    "Type": 2,
+    "Order": 13,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 0,
+        "value": 15
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "总生命值增加15%",
+    "Story": "皇室家具在民间非常受欢迎，是身份的象征",
+    "Condition": 0,
+    "Diomand": 5000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_002_06",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 14,
+    "Name": "小木盾",
+    "IconPath": "icon_cimelia_003_01",
+    "TypeName": "防具架",
+    "TypeBgName": "Collect_06",
+    "Type": 3,
+    "Order": 14,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 3,
+        "value": 3
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "减伤等级+3",
+    "Story": "门板改造的盾牌，可以抵挡一次伤害，大概",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_003_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 15,
+    "Name": "粗糙的铁盾",
+    "IconPath": "icon_cimelia_003_02",
+    "TypeName": "防具架",
+    "TypeBgName": "Collect_06",
+    "Type": 3,
+    "Order": 15,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 3,
+        "value": 7
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "减伤等级+7",
+    "Story": "铁盾是非常好的防具，物美价廉，童叟无欺",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_003_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 16,
+    "Name": "骑士盾",
+    "IconPath": "icon_cimelia_003_03",
+    "TypeName": "防具架",
+    "TypeBgName": "Collect_06",
+    "Type": 3,
+    "Order": 16,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 3,
+        "value": 10
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "减伤等级+10",
+    "Story": "骑士团的专用装备，相当于骑士被册封时的证明",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_003_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 17,
+    "Name": "锅盖",
+    "IconPath": "icon_cimelia_003_04",
+    "TypeName": "防具架",
+    "TypeBgName": "Collect_06",
+    "Type": 3,
+    "Order": 17,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 3,
+        "value": 15
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "减伤等级+15",
+    "Story": "苏菲亚的料理工具之一，一般都会被当做是杀伤性武器",
+    "Condition": 0,
+    "Diomand": 1000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_003_04",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 18,
+    "Name": "损坏的水晶铭文盾",
+    "IconPath": "icon_cimelia_003_05",
+    "TypeName": "防具架",
+    "TypeBgName": "Collect_06",
+    "Type": 3,
+    "Order": 18,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 3,
+        "value": 20
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "减伤等级+20",
+    "Story": "这种盾主要靠的是铭文所带来的魔法效应，本身的质地非常脆弱",
+    "Condition": 4,
+    "Diomand": 5000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_003_05",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 19,
+    "Name": "村庄旗",
+    "IconPath": "icon_cimelia_004_01",
+    "TypeName": "墙壁旗帜",
+    "TypeBgName": "Collect_07",
+    "Type": 4,
+    "Order": 19,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 11,
+        "value": 5
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "红块技能系数+5%",
+    "Story": "当地民兵的旗帜，好看与否全看裁缝的审美",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_004_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 20,
+    "Name": "近卫军旗",
+    "IconPath": "icon_cimelia_004_02",
+    "TypeName": "墙壁旗帜",
+    "TypeBgName": "Collect_07",
+    "Type": 4,
+    "Order": 20,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 11,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "红块技能系数+10%",
+    "Story": "近卫团的旗帜，",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_004_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 21,
+    "Name": "亡灵大军旗",
+    "IconPath": "icon_cimelia_004_03",
+    "TypeName": "墙壁旗帜",
+    "TypeBgName": "Collect_07",
+    "Type": 4,
+    "Order": 21,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 11,
+        "value": 20
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "红块技能系数+20%",
+    "Story": "曾经让人闻风丧胆的魔王阿辛多麾下亡灵军团的旗帜",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_004_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 22,
+    "Name": "哥布林领地旗",
+    "IconPath": "icon_cimelia_004_04",
+    "TypeName": "墙壁旗帜",
+    "TypeBgName": "Collect_07",
+    "Type": 4,
+    "Order": 22,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 11,
+        "value": 30
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "红块技能系数+30%",
+    "Story": "哥布林军团旗帜，一般都是用来擦嘴",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_004_04",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 23,
+    "Name": "蛮族领地旗帜",
+    "IconPath": "icon_cimelia_004_05",
+    "TypeName": "墙壁旗帜",
+    "TypeBgName": "Collect_07",
+    "Type": 4,
+    "Order": 23,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 11,
+        "value": 40
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "红块技能系数+40%",
+    "Story": "蛮族征战四方旗，是勇气的象征，看到了八成会被抢劫",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_004_05",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 24,
+    "Name": "精美的皇室旗帜",
+    "IconPath": "icon_cimelia_004_06",
+    "TypeName": "墙壁旗帜",
+    "TypeBgName": "Collect_07",
+    "Type": 4,
+    "Order": 24,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 11,
+        "value": 50
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 3,
+    "Desc": "红块技能系数+50%",
+    "Story": "皇家专用旗帜，国王游行或者御驾亲征时会见到",
+    "Condition": 0,
+    "Diomand": 5000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_004_06",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 25,
+    "Name": "蛮族男雕像",
+    "IconPath": "icon_cimelia_005_01",
+    "TypeName": "吧台",
+    "TypeBgName": "Collect_08",
+    "Type": 5,
+    "Order": 25,
+    "EffectType": 4,
+    "EffectValue": [
+      {
+        "id": 1,
+        "value": 9
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "绿块生成几率+9",
+    "Story": "蛮族崇拜的肌肉圣雕像",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_005_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 26,
+    "Name": "蛮族男金像",
+    "IconPath": "icon_cimelia_005_02",
+    "TypeName": "吧台",
+    "TypeBgName": "Collect_08",
+    "Type": 5,
+    "Order": 26,
+    "EffectType": 4,
+    "EffectValue": [
+      {
+        "id": 2,
+        "value": 7
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "蓝块生成几率+7",
+    "Story": "蛮族崇拜的肌肉圣雕像奢华版",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_005_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 27,
+    "Name": "假牙",
+    "IconPath": "icon_cimelia_005_03",
+    "TypeName": "吧台",
+    "TypeBgName": "Collect_08",
+    "Type": 5,
+    "Order": 27,
+    "EffectType": 4,
+    "EffectValue": [
+      {
+        "id": 3,
+        "value": 5
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "紫块生成几率+5",
+    "Story": "恶魔牙的利齿，可以做成项链，但因为有很强的异味所以不是很受大众青睐",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_005_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 28,
+    "Name": "眼球",
+    "IconPath": "icon_cimelia_005_04",
+    "TypeName": "吧台",
+    "TypeBgName": "Collect_08",
+    "Type": 5,
+    "Order": 28,
+    "EffectType": 4,
+    "EffectValue": [
+      {
+        "id": 4,
+        "value": 3
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "橙块生成几率+3",
+    "Story": "红宝石虫的眼球，是地下黑市名贵的拍卖品，绯红色的光泽令人神往",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_005_04",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 29,
+    "Name": "龙王小皇冠",
+    "IconPath": "icon_cimelia_005_05",
+    "TypeName": "吧台",
+    "TypeBgName": "Collect_08",
+    "Type": 5,
+    "Order": 29,
+    "EffectType": 4,
+    "EffectValue": [
+      {
+        "id": 7,
+        "value": -5
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "土块生成几率-5",
+    "Story": "传闻龙十分喜欢收集宝藏，尤其是这只还带个王冠的",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_005_05",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 30,
+    "Name": "石像鬼雕像",
+    "IconPath": "icon_cimelia_005_06",
+    "TypeName": "吧台",
+    "TypeBgName": "Collect_08",
+    "Type": 5,
+    "Order": 30,
+    "EffectType": 4,
+    "EffectValue": [
+      {
+        "id": 8,
+        "value": -8
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "石块生成几率-8",
+    "Story": "这是被石化的石像鬼……",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_005_06",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 31,
+    "Name": "彩虹小马",
+    "IconPath": "icon_cimelia_005_07",
+    "TypeName": "吧台",
+    "TypeBgName": "Collect_08",
+    "Type": 5,
+    "Order": 31,
+    "EffectType": 4,
+    "EffectValue": [
+      {
+        "id": 16,
+        "value": 1
+      },
+      {
+        "id": 11,
+        "value": -1
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "圣魂生成几率+1，邪魂生成几率-1",
+    "Story": "试问有谁不爱彩虹小马呢",
+    "Condition": 0,
+    "Diomand": 1000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_005_07",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 32,
+    "Name": "破损的水晶头盔",
+    "IconPath": "icon_cimelia_005_08",
+    "TypeName": "吧台",
+    "TypeBgName": "Collect_08",
+    "Type": 5,
+    "Order": 32,
+    "EffectType": 4,
+    "EffectValue": [
+      {
+        "id": 16,
+        "value": 5
+      },
+      {
+        "id": 11,
+        "value": -5
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "圣魂生成几率+5，邪魂生成几率-5",
+    "Story": "水晶系列藏品，脆弱，魔法效能强大，嗯就这样",
+    "Condition": 7,
+    "Diomand": 5000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_005_08",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 33,
+    "Name": "骷髅绅士相框",
+    "IconPath": "icon_cimelia_006_01",
+    "TypeName": "墙壁挂画",
+    "TypeBgName": "Collect_09",
+    "Type": 6,
+    "Order": 33,
+    "EffectType": 5,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 5
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 1,
+    "Desc": "经验值获取效率+5%",
+    "Story": "骷髅绅士生前就非常喜欢画像在死后热情仍未减弱",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_006_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 34,
+    "Name": "僵尸家族相框",
+    "IconPath": "icon_cimelia_006_02",
+    "TypeName": "墙壁挂画",
+    "TypeBgName": "Collect_09",
+    "Type": 6,
+    "Order": 34,
+    "EffectType": 5,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 10
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 1,
+    "Desc": "经验值获取效率+10%",
+    "Story": "僵尸家族大合照，看着还挺温馨的不是么",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_006_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 35,
+    "Name": "风景画",
+    "IconPath": "icon_cimelia_006_03",
+    "TypeName": "墙壁挂画",
+    "TypeBgName": "Collect_09",
+    "Type": 6,
+    "Order": 35,
+    "EffectType": 5,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 15
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 1,
+    "Desc": "经验值获取效率+15%",
+    "Story": "著名画师大粪奇的遗作，是世间罕见的珍品",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_006_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 36,
+    "Name": "宝藏地图",
+    "IconPath": "icon_cimelia_006_04",
+    "TypeName": "墙壁挂画",
+    "TypeBgName": "Collect_09",
+    "Type": 6,
+    "Order": 36,
+    "EffectType": 5,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 20
+      }
+    ],
+    "IsPercent": true,
+    "PVEorPVP": 1,
+    "Desc": "经验值获取效率+20%",
+    "Story": "传闻大海贼王将宝藏都藏在了这张图中的某个位置，我们称这个宝藏为“一片”",
+    "Condition": 0,
+    "Diomand": 5000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_006_04",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 37,
+    "Name": "灵木家具",
+    "IconPath": "icon_cimelia_007_01",
+    "TypeName": "家具",
+    "TypeBgName": "Collect_10",
+    "Type": 7,
+    "Order": 37,
+    "EffectType": 7,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 3
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "体力上限+3",
+    "Story": "幽暗森林的永恒木制作的家具，透着一股仙气",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_007_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 38,
+    "Name": "骷髅家具",
+    "IconPath": "icon_cimelia_007_02",
+    "TypeName": "家具",
+    "TypeBgName": "Collect_10",
+    "Type": 7,
+    "Order": 38,
+    "EffectType": 7,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 5
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "体力上限+5",
+    "Story": "对！就是人骨做的，你这丧心病狂的家伙",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_007_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 39,
+    "Name": "皇室家具",
+    "IconPath": "icon_cimelia_007_03",
+    "TypeName": "家具",
+    "TypeBgName": "Collect_10",
+    "Type": 7,
+    "Order": 39,
+    "EffectType": 7,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 10
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 1,
+    "Desc": "体力上限+10",
+    "Story": "皇室家具带来的尊贵气息，整个酒吧提升了不止一个档次",
+    "Condition": 0,
+    "Diomand": 1000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_007_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 40,
+    "Name": "胖僵尸击杀证明 ",
+    "IconPath": "icon_cimelia_008_01",
+    "TypeName": "告示板",
+    "TypeBgName": "Collect_11",
+    "Type": 8,
+    "Order": 40,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 7,
+        "value": 20
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "神圣抗性+20",
+    "Story": "村里颁发的胖吉姆击杀奖状",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_008_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 41,
+    "Name": "大虫子击杀证明",
+    "IconPath": "icon_cimelia_008_02",
+    "TypeName": "告示板",
+    "TypeBgName": "Collect_11",
+    "Type": 8,
+    "Order": 41,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 8,
+        "value": 20
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "暗影抗性+20",
+    "Story": "魔法师协会颁发的虫王击杀奖状",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_008_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 42,
+    "Name": "吸血鬼猎人证明",
+    "IconPath": "icon_cimelia_008_03",
+    "TypeName": "告示板",
+    "TypeBgName": "Collect_11",
+    "Type": 8,
+    "Order": 42,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 9,
+        "value": 20
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "雷电抗性+20",
+    "Story": "猎人公会颁发的吸血鬼猎人证明",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_008_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 43,
+    "Name": "哥布林大王击杀证明 ",
+    "IconPath": "icon_cimelia_008_04",
+    "TypeName": "告示板",
+    "TypeBgName": "Collect_11",
+    "Type": 8,
+    "Order": 43,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 10,
+        "value": 20
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "奥术抗性+20",
+    "Story": "皇家骑士团颁发的哥布林讨伐证明",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_008_04",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 44,
+    "Name": "蛮王击杀证明 ",
+    "IconPath": "icon_cimelia_008_05",
+    "TypeName": "告示板",
+    "TypeBgName": "Collect_11",
+    "Type": 8,
+    "Order": 44,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 11,
+        "value": 20
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "自然抗性+20",
+    "Story": "奥拉自己花钱制作的蛮王击杀奖状",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_008_05",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 45,
+    "Name": "龙王天敌",
+    "IconPath": "icon_cimelia_008_06",
+    "TypeName": "告示板",
+    "TypeBgName": "Collect_11",
+    "Type": 8,
+    "Order": 45,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 12,
+        "value": 20
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "火焰抗性+20",
+    "Story": "龙骑兵战团授予的绝交信",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_008_06",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 46,
+    "Name": "元素终结者证明",
+    "IconPath": "icon_cimelia_008_07",
+    "TypeName": "告示板",
+    "TypeBgName": "Collect_11",
+    "Type": 8,
+    "Order": 46,
+    "EffectType": 1,
+    "EffectValue": [
+      {
+        "id": 13,
+        "value": 20
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 3,
+    "Desc": "冰霜抗性+20",
+    "Story": "魔法生物保护协会授予的驱逐令",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_008_07",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 47,
+    "Name": "鹿头壁挂",
+    "IconPath": "icon_cimelia_009_01",
+    "TypeName": "玄关壁挂",
+    "TypeBgName": "Collect_12",
+    "Type": 9,
+    "Order": 47,
+    "EffectType": 2,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 2
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 2,
+    "Desc": "能量值获取速率+2",
+    "Story": "鹿象征着怒火辽源",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_009_01",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 48,
+    "Name": "河马头壁挂",
+    "IconPath": "icon_cimelia_009_02",
+    "TypeName": "玄关壁挂",
+    "TypeBgName": "Collect_12",
+    "Type": 9,
+    "Order": 48,
+    "EffectType": 2,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 4
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 2,
+    "Desc": "能量值获取速率+4",
+    "Story": "河马是个什么鬼，荷马史诗的作者？",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_009_02",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 49,
+    "Name": "野猪",
+    "IconPath": "icon_cimelia_009_03",
+    "TypeName": "玄关壁挂",
+    "TypeBgName": "Collect_12",
+    "Type": 9,
+    "Order": 49,
+    "EffectType": 2,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 6
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 2,
+    "Desc": "能量值获取速率+6",
+    "Story": "扎拉圭特别讨厌的东西之一",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_009_03",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 50,
+    "Name": "狼头",
+    "IconPath": "icon_cimelia_009_04",
+    "TypeName": "玄关壁挂",
+    "TypeBgName": "Collect_12",
+    "Type": 9,
+    "Order": 50,
+    "EffectType": 2,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 8
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 2,
+    "Desc": "能量值获取速率+8",
+    "Story": "狼象征着凛冬将至",
+    "Condition": 0,
+    "Diomand": 0,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_009_04",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 51,
+    "Name": "铁甲狮头",
+    "IconPath": "icon_cimelia_009_05",
+    "TypeName": "玄关壁挂",
+    "TypeBgName": "Collect_12",
+    "Type": 9,
+    "Order": 51,
+    "EffectType": 2,
+    "EffectValue": [
+      {
+        "id": -1,
+        "value": 10
+      }
+    ],
+    "IsPercent": false,
+    "PVEorPVP": 2,
+    "Desc": "能量值获取速率+10",
+    "Story": "异常罕见的魔法生物头部装饰",
+    "Condition": 0,
+    "Diomand": 5000,
+    "ModelPath": "Model\\Cimelia\\Prefab\\model_cimelia_009_05",
+    "ModelPos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+]

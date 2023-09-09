@@ -1,0 +1,247 @@
+[
+  {
+    "Key": "MaxHP",
+    "Text": {
+      "key": "MaxHP",
+      "text": "最大生命值"
+    }
+  },
+  {
+    "Key": "Damage",
+    "Text": {
+      "key": "Damage",
+      "text": "攻击力"
+    }
+  },
+  {
+    "Key": "DamageLevel",
+    "Text": {
+      "key": "DamageLevel",
+      "text": "易伤等级"
+    }
+  },
+  {
+    "Key": "DamageResistLevel",
+    "Text": {
+      "key": "DamageResistLevel",
+      "text": "减伤等级"
+    }
+  },
+  {
+    "Key": "VampireLevel",
+    "Text": {
+      "key": "VampireLevel",
+      "text": "吸血等级"
+    }
+  },
+  {
+    "Key": "ComboLevel",
+    "Text": {
+      "key": "ComboLevel",
+      "text": "连击等级"
+    }
+  },
+  {
+    "Key": "CureLevel",
+    "Text": {
+      "key": "CureLevel",
+      "text": "治疗等级"
+    }
+  },
+  {
+    "Key": "HolyResist",
+    "Text": {
+      "key": "HolyResist",
+      "text": "神圣抗性"
+    }
+  },
+  {
+    "Key": "ShadowResist",
+    "Text": {
+      "key": "ShadowResist",
+      "text": "暗影抗性"
+    }
+  },
+  {
+    "Key": "ThunderResist",
+    "Text": {
+      "key": "ThunderResist",
+      "text": "雷电抗性"
+    }
+  },
+  {
+    "Key": "ArcaneResist",
+    "Text": {
+      "key": "ArcaneResist",
+      "text": "奥术抗性"
+    }
+  },
+  {
+    "Key": "NatureResist",
+    "Text": {
+      "key": "NatureResist",
+      "text": "自然抗性"
+    }
+  },
+  {
+    "Key": "FireResist",
+    "Text": {
+      "key": "FireResist",
+      "text": "火焰抗性"
+    }
+  },
+  {
+    "Key": "IceResist",
+    "Text": {
+      "key": "IceResist",
+      "text": "冰霜抗性"
+    }
+  },
+  {
+    "Key": "AllResist",
+    "Text": {
+      "key": "AllResist",
+      "text": "全部抗性"
+    }
+  },
+  {
+    "Key": "AllLevel",
+    "Text": {
+      "key": "AllLevel",
+      "text": "全部等级"
+    }
+  },
+  {
+    "Key": "ComboUp",
+    "Text": {
+      "key": "ComboUp",
+      "text": "连击加成"
+    }
+  },
+  {
+    "Key": "TeamDamageLevel",
+    "Text": {
+      "key": "TeamDamageLevel",
+      "text": "团队易伤等级"
+    }
+  },
+  {
+    "Key": "TeamPhysicResist",
+    "Text": {
+      "key": "TeamPhysicResist",
+      "text": "团队物理抗性"
+    }
+  },
+  {
+    "Key": "TeamHolyResist",
+    "Text": {
+      "key": "TeamHolyResist",
+      "text": "团队神圣抗性"
+    }
+  },
+  {
+    "Key": "TeamShadowResist",
+    "Text": {
+      "key": "TeamShadowResist",
+      "text": "团队暗影抗性"
+    }
+  },
+  {
+    "Key": "TeamThunderResist",
+    "Text": {
+      "key": "TeamThunderResist",
+      "text": "团队雷电抗性"
+    }
+  },
+  {
+    "Key": "TeamArcaneResist",
+    "Text": {
+      "key": "TeamArcaneResist",
+      "text": "团队奥术抗性"
+    }
+  },
+  {
+    "Key": "TeamNatureResist",
+    "Text": {
+      "key": "TeamNatureResist",
+      "text": "团队自然抗性"
+    }
+  },
+  {
+    "Key": "TeamFireResist",
+    "Text": {
+      "key": "TeamFireResist",
+      "text": "团队火焰抗性"
+    }
+  },
+  {
+    "Key": "TeamIceResist",
+    "Text": {
+      "key": "TeamIceResist",
+      "text": "团队冰霜抗性"
+    }
+  },
+  {
+    "Key": "IncreaseGreenDamage",
+    "Text": {
+      "key": "IncreaseGreenDamage",
+      "text": "绿块技能伤害增益"
+    }
+  },
+  {
+    "Key": "IncreaseBlueDamage",
+    "Text": {
+      "key": "IncreaseBlueDamage",
+      "text": "蓝块技能伤害增益"
+    }
+  },
+  {
+    "Key": "IncreasePurpleDamage",
+    "Text": {
+      "key": "IncreasePurpleDamage",
+      "text": "紫块技能伤害增益"
+    }
+  },
+  {
+    "Key": "IncreaseOrangeDamage",
+    "Text": {
+      "key": "IncreaseOrangeDamage",
+      "text": "橙块技能伤害增益"
+    }
+  },
+  {
+    "Key": "GreenFactor",
+    "Text": {
+      "key": "GreenFactor",
+      "text": "绿块技能系数增益"
+    }
+  },
+  {
+    "Key": "BlueFactor",
+    "Text": {
+      "key": "BlueFactor",
+      "text": "蓝块技能系数增益"
+    }
+  },
+  {
+    "Key": "PurpleFactor",
+    "Text": {
+      "key": "PurpleFactor",
+      "text": "紫块技能系数增益"
+    }
+  },
+  {
+    "Key": "OrangeFactor",
+    "Text": {
+      "key": "OrangeFactor",
+      "text": "橙块技能系数增益"
+    }
+  },
+  {
+    "Key": "RedFactor",
+    "Text": {
+      "key": "RedFactor",
+      "text": "红块技能系数增益"
+    }
+  }
+]

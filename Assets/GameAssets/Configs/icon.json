@@ -1,0 +1,142 @@
+[
+  {
+    "ID": 1,
+    "Name": "icon_player_001",
+    "Trait": true
+  },
+  {
+    "ID": 2,
+    "Name": "icon_player_002",
+    "Trait": true
+  },
+  {
+    "ID": 3,
+    "Name": "icon_player_003",
+    "Trait": false
+  },
+  {
+    "ID": 4,
+    "Name": "icon_player_004",
+    "Trait": false
+  },
+  {
+    "ID": 5,
+    "Name": "icon_player_005",
+    "Trait": false
+  },
+  {
+    "ID": 6,
+    "Name": "icon_player_006",
+    "Trait": false
+  },
+  {
+    "ID": 7,
+    "Name": "icon_player_007",
+    "Trait": false
+  },
+  {
+    "ID": 8,
+    "Name": "icon_player_008",
+    "Trait": false
+  },
+  {
+    "ID": 9,
+    "Name": "icon_player_009",
+    "Trait": false
+  },
+  {
+    "ID": 10,
+    "Name": "icon_player_010",
+    "Trait": false
+  },
+  {
+    "ID": 11,
+    "Name": "icon_player_011",
+    "Trait": false
+  },
+  {
+    "ID": 12,
+    "Name": "icon_player_012",
+    "Trait": false
+  },
+  {
+    "ID": 13,
+    "Name": "icon_player_013",
+    "Trait": false
+  },
+  {
+    "ID": 14,
+    "Name": "icon_player_014",
+    "Trait": false
+  },
+  {
+    "ID": 15,
+    "Name": "icon_player_015",
+    "Trait": false
+  },
+  {
+    "ID": 16,
+    "Name": "icon_player_016",
+    "Trait": false
+  },
+  {
+    "ID": 17,
+    "Name": "icon_player_017",
+    "Trait": false
+  },
+  {
+    "ID": 18,
+    "Name": "icon_player_018",
+    "Trait": false
+  },
+  {
+    "ID": 19,
+    "Name": "icon_player_019",
+    "Trait": false
+  },
+  {
+    "ID": 20,
+    "Name": "icon_player_020",
+    "Trait": false
+  },
+  {
+    "ID": 21,
+    "Name": "icon_player_021",
+    "Trait": false
+  },
+  {
+    "ID": 22,
+    "Name": "icon_player_022",
+    "Trait": false
+  },
+  {
+    "ID": 23,
+    "Name": "icon_player_023",
+    "Trait": false
+  },
+  {
+    "ID": 24,
+    "Name": "icon_player_024",
+    "Trait": false
+  },
+  {
+    "ID": 25,
+    "Name": "icon_player_025",
+    "Trait": false
+  },
+  {
+    "ID": 26,
+    "Name": "icon_player_026",
+    "Trait": false
+  },
+  {
+    "ID": 27,
+    "Name": "icon_player_027",
+    "Trait": false
+  },
+  {
+    "ID": 28,
+    "Name": "icon_player_028",
+    "Trait": false
+  }
+]

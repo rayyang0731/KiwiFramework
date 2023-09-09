@@ -1,0 +1,5150 @@
+[
+  {
+    "ID": 1,
+    "UIName": "HeroForms",
+    "Next": 2,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是英雄属性界面，\\r\\在这里你可以<color=#e20c0c>升级你的英雄属性与技能</color>",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 2,
+    "UIName": "",
+    "Next": 3,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": 0,
+      "y": 196
+    },
+    "Text": "此处显示<color=#e20c0c>英雄基本信息</color>，也可以看到他/她帅气的形象",
+    "TextPosition": {
+      "x": 20,
+      "y": 69
+    },
+    "TextArea": {
+      "x": 848,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 6,
+      "y": 69
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 259
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 337,
+      "y": 17
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 527
+    },
+    "HighlightArea": {
+      "x": 1072,
+      "y": 657
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 3,
+    "UIName": "",
+    "Next": 4,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": -205,
+      "y": -58
+    },
+    "Text": "点击此处可以<color=#e20c0c>切换英雄，滑动</color>可以显示更多哦！",
+    "TextPosition": {
+      "x": -69,
+      "y": -178
+    },
+    "TextArea": {
+      "x": 496,
+      "y": 177
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -84,
+      "y": -202
+    },
+    "TextBGArea": {
+      "x": 592,
+      "y": 294
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": -84,
+      "y": -272
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -4,
+      "y": 64
+    },
+    "HighlightArea": {
+      "x": 1054,
+      "y": 202
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 4,
+    "UIName": "",
+    "Next": 5,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 0,
+      "y": -66.2
+    },
+    "Text": "下方显示的是英雄的所有<color=#e20c0c>技能</color>啦，请让我逐一为您解释",
+    "TextPosition": {
+      "x": 11,
+      "y": 66
+    },
+    "TextArea": {
+      "x": 861,
+      "y": 171
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 66
+    },
+    "TextBGArea": {
+      "x": 989,
+      "y": 277
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 345,
+      "y": -3.3
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": -397
+    },
+    "HighlightArea": {
+      "x": 1057,
+      "y": 613
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 5,
+    "UIName": "",
+    "Next": 6,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 0,
+      "y": -87.1
+    },
+    "Text": "<color=#e20c0c>被动技能</color>也就是你英雄的属性，像攻击，血量，可以直接决定你英雄的强弱，升级需要消耗<color=#e20c0c>经验！</color>",
+    "TextPosition": {
+      "x": 14,
+      "y": 49
+    },
+    "TextArea": {
+      "x": 855,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 49
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 275
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 340,
+      "y": -29
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -3,
+      "y": -205
+    },
+    "HighlightArea": {
+      "x": 1030,
+      "y": 196
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 6,
+    "UIName": "",
+    "Next": 7,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 0,
+      "y": -268
+    },
+    "Text": "<color=#e20c0c>探索技能</color>，就是当你融合符石时所触发的技能效果，升级需要消耗<color=#e20c0c>技能石</color>",
+    "TextPosition": {
+      "x": 0,
+      "y": -122
+    },
+    "TextArea": {
+      "x": 853,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": -137.5
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 275
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 326,
+      "y": -209
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -3,
+      "y": -398
+    },
+    "HighlightArea": {
+      "x": 1030,
+      "y": 196
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 7,
+    "UIName": "",
+    "Next": 8,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 0,
+      "y": -467.2
+    },
+    "Text": "<color=#e20c0c>战争技能</color>，一般用于对战中阻碍对手，升级需要消耗<color=#e20c0c>荣誉</color>",
+    "TextPosition": {
+      "x": 10,
+      "y": -348
+    },
+    "TextArea": {
+      "x": 867,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": -348
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 275
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 342,
+      "y": -405
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -3,
+      "y": -599
+    },
+    "HighlightArea": {
+      "x": 1030,
+      "y": 196
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 8,
+    "UIName": "",
+    "Next": 9,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": 11,
+      "y": -137
+    },
+    "Text": "升级技能消耗的<color=#e20c0c>经验，技能点以及荣誉值</color>会显示在这里",
+    "TextPosition": {
+      "x": 0,
+      "y": -260
+    },
+    "TextArea": {
+      "x": 848,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": -262
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 259
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 348,
+      "y": -319
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": -74
+    },
+    "HighlightArea": {
+      "x": 1051,
+      "y": 80
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 9,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "属性界面介绍完毕\\r\\你可以自己点点试试，比心",
+    "TextPosition": {
+      "x": -182,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 464.5,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击结束引导</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 10,
+    "UIName": "Embattle",
+    "Next": 11,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是阵型界面，\\r\\你可以在这里<color=#e20c0c>配置上阵的英雄</color>",
+    "TextPosition": {
+      "x": -184,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 490,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 11,
+    "UIName": "",
+    "Next": 12,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": 32,
+      "y": 82
+    },
+    "Text": "此处显示的是<color=#e20c0c>已经上阵的英雄</color>",
+    "TextPosition": {
+      "x": 22,
+      "y": -36
+    },
+    "TextArea": {
+      "x": 595,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 22,
+      "y": -36
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 271,
+      "y": -86
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -1,
+      "y": 407
+    },
+    "HighlightArea": {
+      "x": 1056,
+      "y": 639
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 12,
+    "UIName": "",
+    "Next": 13,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": 32,
+      "y": 82
+    },
+    "Text": "<color=#e20c0c>绿，蓝，紫，橙</color>\\r\\对应了英雄在战斗中触发符石的效果",
+    "TextPosition": {
+      "x": 22,
+      "y": -36
+    },
+    "TextArea": {
+      "x": 595,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 22,
+      "y": -36
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 271,
+      "y": -86
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -1,
+      "y": 407
+    },
+    "HighlightArea": {
+      "x": 1056,
+      "y": 639
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 13,
+    "UIName": "",
+    "Next": 14,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 0,
+      "y": -225
+    },
+    "Text": "将列表中英雄<color=#e20c0c>拖动</color>至上阵列表的任意位置即可完成英雄的上阵<color=#e20c0c>配置</color>",
+    "TextPosition": {
+      "x": 0,
+      "y": -110
+    },
+    "TextArea": {
+      "x": 765,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": -110
+    },
+    "TextBGArea": {
+      "x": 915,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 318,
+      "y": -157
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 1,
+      "y": -464
+    },
+    "HighlightArea": {
+      "x": 1053,
+      "y": 452
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 14,
+    "UIName": "",
+    "Next": 15,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": -9,
+      "y": -212
+    },
+    "Text": "顺便强调一下<color=#e20c0c>红色符石</color>的效果是由英雄们的<color=#e20c0c>信仰</color>决定的",
+    "TextPosition": {
+      "x": 14,
+      "y": -321
+    },
+    "TextArea": {
+      "x": 760,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 11,
+      "y": -327
+    },
+    "TextBGArea": {
+      "x": 883,
+      "y": 237
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 305,
+      "y": -378
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 8,
+      "y": -75
+    },
+    "HighlightArea": {
+      "x": 1034,
+      "y": 285
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 15,
+    "UIName": "",
+    "Next": 16,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": -9,
+      "y": 615
+    },
+    "Text": "此处可以看到每个英雄的<color=#e20c0c>信仰</color>，不同的<color=#e20c0c>英雄组合</color>影响红色符石的技能效果",
+    "TextPosition": {
+      "x": 4.24,
+      "y": 493
+    },
+    "TextArea": {
+      "x": 848,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 493
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 250
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 344,
+      "y": 436
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -2,
+      "y": 678
+    },
+    "HighlightArea": {
+      "x": 924,
+      "y": 91
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 16,
+    "UIName": "",
+    "Next": 19,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": 456,
+      "y": -68
+    },
+    "Text": "这里可以查看所有红色符石的组合，前提是你得拥有这些英雄，（笑）",
+    "TextPosition": {
+      "x": 162,
+      "y": -205
+    },
+    "TextArea": {
+      "x": 646,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 150,
+      "y": -205
+    },
+    "TextBGArea": {
+      "x": 743,
+      "y": 281
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 377,
+      "y": -279
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 456,
+      "y": 4
+    },
+    "HighlightArea": {
+      "x": 110,
+      "y": 108
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 17,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 18,
+      "y": -481
+    },
+    "Text": "好！下面说一下配置道具，道具列表在这里！向右<color=#e20c0c>滑动</color>可以显示更多",
+    "TextPosition": {
+      "x": 10,
+      "y": -358
+    },
+    "TextArea": {
+      "x": 848,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 10,
+      "y": -358
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 259
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 354,
+      "y": -421
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 7,
+      "y": -578
+    },
+    "HighlightArea": {
+      "x": 911,
+      "y": 177
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 18,
+    "UIName": "",
+    "Next": 19,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 18,
+      "y": -749
+    },
+    "Text": "将道具<color=#e20c0c>拖动</color>到这里，完成配置后即可在战斗中使用",
+    "TextPosition": {
+      "x": 1.8,
+      "y": -625
+    },
+    "TextArea": {
+      "x": 848,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 4.8,
+      "y": -625
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 259
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 355,
+      "y": -689
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 1,
+      "y": -848
+    },
+    "HighlightArea": {
+      "x": 801,
+      "y": 186
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 5,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 19,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "阵型配置教学完成\\r\\，也不知道你记住了多少\\r\\总之多试试就OK啦！",
+    "TextPosition": {
+      "x": -147,
+      "y": -2
+    },
+    "TextArea": {
+      "x": 554,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 57,
+      "y": -88
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 10000
+    },
+    "HighlightArea": {
+      "x": 1000,
+      "y": 1000
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 20,
+    "UIName": "MapForm",
+    "Next": 21,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里就是关卡地图啦，\\r\\点击<color=#e20c0c>酒杯</color>可以进入关卡咯",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 21,
+    "UIName": "",
+    "Next": 22,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": -317,
+      "y": -270
+    },
+    "Text": "对！就是这个<color=#e20c0c>酒杯</color>",
+    "TextPosition": {
+      "x": 57,
+      "y": -147
+    },
+    "TextArea": {
+      "x": 628,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -75,
+      "y": -147
+    },
+    "TextBGArea": {
+      "x": 758,
+      "y": 259
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 164,
+      "y": -219
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -313,
+      "y": -411
+    },
+    "HighlightArea": {
+      "x": 238,
+      "y": 240
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 22,
+    "UIName": "",
+    "Next": 23,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": -301,
+      "y": 845.5
+    },
+    "Text": "哦，等等，忘了说进入关卡会消耗<color=#e20c0c>体力</color>，可以在这里查看，体力通过<color=#e20c0c>时间回复</color>哦！",
+    "TextPosition": {
+      "x": 34,
+      "y": 726
+    },
+    "TextArea": {
+      "x": 848,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 34,
+      "y": 720
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 259
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 386,
+      "y": 643
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -365,
+      "y": 919
+    },
+    "HighlightArea": {
+      "x": 350,
+      "y": 83
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 23,
+    "UIName": "",
+    "Next": 72,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "完成关卡后将会开启\\r\\新的关卡。",
+    "TextPosition": {
+      "x": -134,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 554,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 74,
+      "y": -86
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 72,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": -1,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": -317,
+      "y": -270
+    },
+    "Text": "点击<color=#e20c0c>打开关卡信息界面</color>",
+    "TextPosition": {
+      "x": 16,
+      "y": -147
+    },
+    "TextArea": {
+      "x": 628,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -75,
+      "y": -147
+    },
+    "TextBGArea": {
+      "x": 758,
+      "y": 259
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 164,
+      "y": -219
+    },
+    "HighlightClickSeep": true,
+    "HighlightPosition": {
+      "x": -313,
+      "y": -411
+    },
+    "HighlightArea": {
+      "x": 238,
+      "y": 240
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 24,
+    "UIName": "BagForm",
+    "Next": 25,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是你的<color=#e20c0c>背包</color>！\\r\\可在这里<color=#e20c0c>查看</color>或<color=#e20c0c>使用</color>你\\r\\所拥有的道具",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 62,
+      "y": -89
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 25,
+    "UIName": "",
+    "Next": 26,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": -359,
+      "y": 546
+    },
+    "Text": "<color=#e20c0c>点击</color>任意的道具图标",
+    "TextPosition": {
+      "x": -97,
+      "y": 436.7
+    },
+    "TextArea": {
+      "x": 455,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -131,
+      "y": 425.7
+    },
+    "TextBGArea": {
+      "x": 608,
+      "y": 247
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 34,
+      "y": 369
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -397,
+      "y": 683
+    },
+    "HighlightArea": {
+      "x": 209,
+      "y": 233
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 26,
+    "UIName": "",
+    "Next": 27,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 0,
+      "y": -559
+    },
+    "Text": "当道具是可以在背包中<color=#e20c0c>使用的类型</color>时，点击<color=#e20c0c>使用按钮</color>便可直接使用",
+    "TextPosition": {
+      "x": 24,
+      "y": -417
+    },
+    "TextArea": {
+      "x": 753,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -4,
+      "y": -424
+    },
+    "TextBGArea": {
+      "x": 854,
+      "y": 281
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 276,
+      "y": -487
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": -648
+    },
+    "HighlightArea": {
+      "x": 329,
+      "y": 137
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 27,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "其他<color=#e20c0c>战斗中使用</color>的道具，\\r\\需要在<color=#e20c0c>关卡信息界面</color>进行\\r\\<color=#e20c0c>配置</color>",
+    "TextPosition": {
+      "x": -152,
+      "y": -11
+    },
+    "TextArea": {
+      "x": 554,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 72,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 28,
+    "UIName": "",
+    "Next": 29,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_2",
+    "ImagePosition": {
+      "x": 246,
+      "y": 145
+    },
+    "Text": "喂，醒醒吧！",
+    "TextPosition": {
+      "x": -79,
+      "y": 5.3
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 29,
+    "UIName": "",
+    "Next": 30,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_2",
+    "ImagePosition": {
+      "x": 246,
+      "y": 145
+    },
+    "Text": "你到底喝了多少啊？",
+    "TextPosition": {
+      "x": -168,
+      "y": 5.3
+    },
+    "TextArea": {
+      "x": 456,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 30,
+    "UIName": "",
+    "Next": 31,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_2",
+    "ImagePosition": {
+      "x": 246,
+      "y": 145
+    },
+    "Text": "我有点事想请你帮忙",
+    "TextPosition": {
+      "x": -173,
+      "y": 5.3
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 31,
+    "UIName": "",
+    "Next": 32,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_2",
+    "ImagePosition": {
+      "x": 246,
+      "y": 145
+    },
+    "Text": "门口有几个士兵，帮我\\r\\去跟他们打个招呼",
+    "TextPosition": {
+      "x": -190,
+      "y": 5
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 32,
+    "UIName": "",
+    "Next": 33,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_2",
+    "ImagePosition": {
+      "x": 246,
+      "y": 145
+    },
+    "Text": "当然如果你可以把赊的\\r\\账还清可以拒绝",
+    "TextPosition": {
+      "x": -190,
+      "y": 5
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 33,
+    "UIName": "",
+    "Next": 34,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_2",
+    "ImagePosition": {
+      "x": 246,
+      "y": 145
+    },
+    "Text": "好了，别废话了，\\r\\快去吧!",
+    "TextPosition": {
+      "x": -140,
+      "y": 4.5
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 34,
+    "UIName": "",
+    "Next": 35,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_2",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "小绿！\\r\\带上那几个废物。",
+    "TextPosition": {
+      "x": -115,
+      "y": 5
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 35,
+    "UIName": "",
+    "Next": 36,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "好的，女王大人(￣▽￣)",
+    "TextPosition": {
+      "x": -176,
+      "y": 5.3
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": -91
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 36,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": -1,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 382,
+      "y": -644
+    },
+    "Text": "点击此处进入地图",
+    "TextPosition": {
+      "x": 407,
+      "y": -513
+    },
+    "TextArea": {
+      "x": 753,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 207,
+      "y": -530
+    },
+    "TextBGArea": {
+      "x": 590,
+      "y": 238
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 359,
+      "y": -580
+    },
+    "HighlightClickSeep": true,
+    "HighlightPosition": {
+      "x": 378,
+      "y": -819
+    },
+    "HighlightArea": {
+      "x": 288,
+      "y": 286
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 37,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "dianji",
+    "EffectPosition": {
+      "x": -13,
+      "y": -143,
+      "z": 0
+    }
+  },
+  {
+    "ID": 38,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "shouzhi",
+    "EffectPosition": {
+      "x": 119,
+      "y": -143,
+      "z": 0
+    }
+  },
+  {
+    "ID": 39,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "dianji",
+    "EffectPosition": {
+      "x": 119,
+      "y": -279,
+      "z": 0
+    }
+  },
+  {
+    "ID": 40,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "shouzhi",
+    "EffectPosition": {
+      "x": 253,
+      "y": -279,
+      "z": 0
+    }
+  },
+  {
+    "ID": 41,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "dianji",
+    "EffectPosition": {
+      "x": 261,
+      "y": -418,
+      "z": 0
+    }
+  },
+  {
+    "ID": 42,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "shouzhi",
+    "EffectPosition": {
+      "x": 389,
+      "y": -418,
+      "z": 0
+    }
+  },
+  {
+    "ID": 43,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "dianji",
+    "EffectPosition": {
+      "x": 394,
+      "y": -550,
+      "z": 0
+    }
+  },
+  {
+    "ID": 44,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "shouzhi",
+    "EffectPosition": {
+      "x": 519,
+      "y": -550,
+      "z": 0
+    }
+  },
+  {
+    "ID": 45,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "dianji",
+    "EffectPosition": {
+      "x": -9,
+      "y": -686,
+      "z": 0
+    }
+  },
+  {
+    "ID": 46,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "shouzhi_you",
+    "EffectPosition": {
+      "x": -146,
+      "y": -686,
+      "z": 0
+    }
+  },
+  {
+    "ID": 47,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "引导测试成功",
+    "TextPosition": {
+      "x": -153,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": 228
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 48,
+    "UIName": "",
+    "Next": 49,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "我来啦！",
+    "TextPosition": {
+      "x": -153,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 479,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 47,
+      "y": 228
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 49,
+    "UIName": "",
+    "Next": 50,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "老板娘让我教一你些战斗常识，请看下面 (•ᴗ•)و ",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 50,
+    "UIName": "",
+    "Next": 51,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 1,
+      "y": -96
+    },
+    "Text": "最少<color=#e20c0c>三个相同颜色</color>的符石<color=#e20c0c>临近</color>会触发一次英雄攻击",
+    "TextPosition": {
+      "x": 25,
+      "y": 19
+    },
+    "TextArea": {
+      "x": 653,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 19
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 237,
+      "y": -39
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": -177
+    },
+    "HighlightArea": {
+      "x": 447,
+      "y": 163
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 51,
+    "UIName": "",
+    "Next": 52,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_2",
+    "ImagePosition": {
+      "x": -174,
+      "y": 164
+    },
+    "Text": "符石的颜色对应<color=#e20c0c>上阵的4位英雄</color>",
+    "TextPosition": {
+      "x": 22,
+      "y": 54
+    },
+    "TextArea": {
+      "x": 618,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 22,
+      "y": 45
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 273,
+      "y": -17
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -252.5,
+      "y": 414
+    },
+    "HighlightArea": {
+      "x": 575,
+      "y": 459
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 52,
+    "UIName": "",
+    "Next": 53,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "与以往你玩过的其他三消游戏不同的是我们是需要<color=#e20c0c>点击消除</color>的！",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 516,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 105,
+      "y": 228
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 53,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "dianji",
+    "EffectPosition": {
+      "x": -138,
+      "y": -404,
+      "z": 0
+    }
+  },
+  {
+    "ID": 54,
+    "UIName": "",
+    "Next": 55,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_4",
+    "ImagePosition": {
+      "x": -150.3,
+      "y": -148
+    },
+    "Text": "当符石消除后，上面的符石<color=#e20c0c>摇晃</color>并准备<color=#e20c0c>下落</color>",
+    "TextPosition": {
+      "x": 188,
+      "y": -160
+    },
+    "TextArea": {
+      "x": 545,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 176,
+      "y": -160
+    },
+    "TextBGArea": {
+      "x": 659,
+      "y": 293
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 350,
+      "y": -238
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -280,
+      "y": -180
+    },
+    "HighlightArea": {
+      "x": 159,
+      "y": 435
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 55,
+    "UIName": "",
+    "Next": 56,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_4",
+    "ImagePosition": {
+      "x": -150.3,
+      "y": -148
+    },
+    "Text": "在符石<color=#e20c0c>下落的瞬间!</color>(重点)",
+    "TextPosition": {
+      "x": 214,
+      "y": -142
+    },
+    "TextArea": {
+      "x": 545,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 176,
+      "y": -160
+    },
+    "TextBGArea": {
+      "x": 659,
+      "y": 293
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 350,
+      "y": -238
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -280,
+      "y": -180
+    },
+    "HighlightArea": {
+      "x": 159,
+      "y": 435
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 56,
+    "UIName": "",
+    "Next": 57,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_4",
+    "ImagePosition": {
+      "x": -140.7,
+      "y": -343.9
+    },
+    "Text": "可以将<color=#e20c0c>空白区域左右</color>的符石进行移动",
+    "TextPosition": {
+      "x": 201,
+      "y": -360
+    },
+    "TextArea": {
+      "x": 545,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 185,
+      "y": -360
+    },
+    "TextBGArea": {
+      "x": 659,
+      "y": 293
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 355,
+      "y": -435
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -280,
+      "y": -180
+    },
+    "HighlightArea": {
+      "x": 159,
+      "y": 435
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 57,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "shouzhi",
+    "EffectPosition": {
+      "x": -14,
+      "y": -397,
+      "z": 0
+    }
+  },
+  {
+    "ID": 58,
+    "UIName": "",
+    "Next": 59,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -280,
+      "y": -180
+    },
+    "HighlightArea": {
+      "x": 159,
+      "y": 435
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 59,
+    "UIName": "",
+    "Next": 60,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "怎么样，是不是很简单，熟练操作后会让游戏变的超级好玩  (•ᴗ•)و ",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 60,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "下面就交给你了，揍他们 (ง •_•)ง",
+    "TextPosition": {
+      "x": -183,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 482,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 61,
+    "UIName": "",
+    "Next": 62,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "我又来啦，看你已经玩到这了想必基础操作已经得心应手了呢 (•ᴗ•)و ",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 62,
+    "UIName": "",
+    "Next": 63,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "下面我来讲解一下关于符石的一些知识(•ω• )ゝ",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 63,
+    "UIName": "",
+    "Next": 64,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 1,
+      "y": -96
+    },
+    "Text": "符石由<color=#e20c0c>低到高</color>分为5个等级\\r\\绿，蓝，紫，橙，红",
+    "TextPosition": {
+      "x": 12,
+      "y": 19
+    },
+    "TextArea": {
+      "x": 653,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 19
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 237,
+      "y": -39
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -1,
+      "y": -180
+    },
+    "HighlightArea": {
+      "x": 721,
+      "y": 149
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 64,
+    "UIName": "",
+    "Next": 65,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 1,
+      "y": -96
+    },
+    "Text": "符石<color=#e20c0c>融合后产生</color>一个更<color=#e20c0c>高级符石</color>",
+    "TextPosition": {
+      "x": 12,
+      "y": 19
+    },
+    "TextArea": {
+      "x": 653,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 19
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 237,
+      "y": -39
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -71,
+      "y": -177
+    },
+    "HighlightArea": {
+      "x": 582,
+      "y": 159
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 65,
+    "UIName": "",
+    "Next": 66,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 280,
+      "y": -96
+    },
+    "Text": "而<color=#e20c0c>红色</color>符石则是由<color=#e20c0c>橙色符石融合</color>升级而来",
+    "TextPosition": {
+      "x": 12,
+      "y": 19
+    },
+    "TextArea": {
+      "x": 653,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 19
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 237,
+      "y": -39
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 280,
+      "y": -181
+    },
+    "HighlightArea": {
+      "x": 159,
+      "y": 151
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 66,
+    "UIName": "",
+    "Next": 67,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 280,
+      "y": -96
+    },
+    "Text": "红色符石融合会触发强大的<color=#e20c0c>团队技能</color>",
+    "TextPosition": {
+      "x": 25,
+      "y": 19
+    },
+    "TextArea": {
+      "x": 653,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 25,
+      "y": 19
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 262,
+      "y": -41
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 278,
+      "y": -319
+    },
+    "HighlightArea": {
+      "x": 160,
+      "y": 436
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 67,
+    "UIName": "",
+    "Next": 68,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": -123,
+      "y": 40
+    },
+    "Text": "并且<color=#e20c0c>红色符石融合</color>后会<color=#e20c0c>消除</color>符石库中所有的<color=#e20c0c>石块和铁块</color>（重点）",
+    "TextPosition": {
+      "x": -37,
+      "y": 170
+    },
+    "TextArea": {
+      "x": 681,
+      "y": 234
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -41,
+      "y": 170
+    },
+    "TextBGArea": {
+      "x": 790,
+      "y": 275
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 202,
+      "y": 99
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -71,
+      "y": -41
+    },
+    "HighlightArea": {
+      "x": 584,
+      "y": 157
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 68,
+    "UIName": "",
+    "Next": 69,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "下面我们来尝试一下用红色符石<color=#e20c0c>消除石块和铁块</color>(ง •_•)ง",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 69,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "dianji",
+    "EffectPosition": {
+      "x": 408,
+      "y": -116,
+      "z": 0
+    }
+  },
+  {
+    "ID": 70,
+    "UIName": "",
+    "Next": 71,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": -123,
+      "y": 40
+    },
+    "Text": "快看这些讨厌的铁块！ (￣▽￣)\\r\\一扫而空",
+    "TextPosition": {
+      "x": -37,
+      "y": 170
+    },
+    "TextArea": {
+      "x": 681,
+      "y": 234
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -41,
+      "y": 170
+    },
+    "TextBGArea": {
+      "x": 790,
+      "y": 275
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 202,
+      "y": 99
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -71,
+      "y": -41
+    },
+    "HighlightArea": {
+      "x": 584,
+      "y": 157
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 71,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "大成功！熟练掌握符石合成的规律也是制胜的关键之一，加油(•ᴗ•)و ",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 74,
+    "UIName": "LevelInfo",
+    "Next": 0,
+    "ActiveTime": -1,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 6,
+      "y": -381
+    },
+    "Text": "点这个就可以<color=#e20c0c>进入关卡</color>啦(•ᴗ•)و ",
+    "TextPosition": {
+      "x": -7,
+      "y": -250
+    },
+    "TextArea": {
+      "x": 628,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -38,
+      "y": -258
+    },
+    "TextBGArea": {
+      "x": 758,
+      "y": 259
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 200,
+      "y": -321
+    },
+    "HighlightClickSeep": true,
+    "HighlightPosition": {
+      "x": 0,
+      "y": -464
+    },
+    "HighlightArea": {
+      "x": 292,
+      "y": 121
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 75,
+    "UIName": "",
+    "Next": 76,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "哼哼哼<(▰˘◡˘▰)>   ，是时候该教你一些高级操作了！",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 76,
+    "UIName": "",
+    "Next": 77,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "那就是超过<color=#e20c0c>3个同颜色符石</color>会使技能威力变强！\\r\\(ง •̀_•́)ง",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 77,
+    "UIName": "",
+    "Next": 78,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "什么?你说已经知道了？\\r\\Ծ‸Ծ",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 78,
+    "UIName": "",
+    "Next": 79,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "看来我要教些更高级的了！请看下面٩(//̀Д/́/)۶",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 79,
+    "UIName": "",
+    "Next": 80,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 1,
+      "y": -96
+    },
+    "Text": "当符石融合时出现<color=#e20c0c>十字</color>或者<color=#e20c0c>T字</color>的形状时会产生<color=#e20c0c>2个高级符石</color>",
+    "TextPosition": {
+      "x": 16,
+      "y": 43
+    },
+    "TextArea": {
+      "x": 643,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 34
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 273
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 237,
+      "y": -39
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -1,
+      "y": -321
+    },
+    "HighlightArea": {
+      "x": 431,
+      "y": 431
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 80,
+    "UIName": "",
+    "Next": -1,
+    "ActiveTime": 0,
+    "Sound": "guide_next",
+    "Image": "",
+    "ImagePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "Text": "",
+    "TextPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 0,
+      "y": 0
+    },
+    "TipsText": "",
+    "TipsPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "dianji",
+    "EffectPosition": {
+      "x": 121,
+      "y": -414,
+      "z": 0
+    }
+  },
+  {
+    "ID": 81,
+    "UIName": "",
+    "Next": 82,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_dialog_3",
+    "ImagePosition": {
+      "x": 9,
+      "y": -373
+    },
+    "Text": "看！产生了2个高级符石，有木有\\r\\ ♪（＾∀＾●）",
+    "TextPosition": {
+      "x": 6.6,
+      "y": -260
+    },
+    "TextArea": {
+      "x": 653,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": -260
+    },
+    "TextBGArea": {
+      "x": 782,
+      "y": 243
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 244,
+      "y": -315
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": -1,
+      "y": -528
+    },
+    "HighlightArea": {
+      "x": 154,
+      "y": 293
+    },
+    "HighlightEffect": "Effect_UI_006",
+    "HighlightEffectDuration": 3,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 82,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "掌握了特殊融合会让高级技能触发变的更加有效率呢！拜拜",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 83,
+    "UIName": "",
+    "Next": 84,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "(•ᴗ•)و 你知道<color=#e20c0c>连击</color>操作吗？",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 84,
+    "UIName": "",
+    "Next": 85,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "当在<color=#e20c0c>4秒内</color>连续融合块时便会触发连击",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 85,
+    "UIName": "",
+    "Next": 86,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "combo",
+    "ImagePosition": {
+      "x": 146,
+      "y": 325
+    },
+    "Text": "就是这个图案->",
+    "TextPosition": {
+      "x": -140,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 296,
+      "y": 234
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 86,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_next",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 287,
+      "y": 481
+    },
+    "Text": "连击次数越多伤害加成也会越高哟！\\r\\(ง •̀_•́)ง",
+    "TextPosition": {
+      "x": -171,
+      "y": 315
+    },
+    "TextArea": {
+      "x": 514,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": -19,
+      "y": 315
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 87.6,
+      "y": 232
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 87,
+    "UIName": "PVPForm",
+    "Next": 88,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是<color=#e20c0c>对战</color>界面，\\r\\在这里你可以与其他符石世界的英雄进行<color=#e20c0c>对战</color>",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 88,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "0",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "来验证一下自己的实力吧，还能顺便获得点荣誉(ง •̀_•́)ง",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 89,
+    "UIName": "BattleDiary",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是你的<color=#e20c0c>日记</color>，\\r\\在这里可以查看以往你的<color=#e20c0c>战斗信息</color>",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 90,
+    "UIName": "DrawViewForm",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是怪物<color=#e20c0c>图鉴</color>，\\r\\你<color=#e20c0c>击败的怪物</color>都会在这里显示，也可以查看其<color=#e20c0c>特性</color>",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 89.1,
+      "y": -95.5
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 91,
+    "UIName": "AchievementForm",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是<color=#e20c0c>成就</color>界面，\\r\\当你<color=#e20c0c>完成成就</color>的时候记得来这里<color=#e20c0c>领取奖励</color>啊！",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 89.1,
+      "y": -95.5
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 92,
+    "UIName": "CollectForm",
+    "Next": 93,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是<color=#e20c0c>收集品</color>界面，\\r\\当你获得收集品后，便可以在这里进行<color=#e20c0c>配置</color>",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 93,
+    "UIName": "",
+    "Next": 94,
+    "ActiveTime": 0.5,
+    "Sound": "",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "收集品会带来一些一想不到的<color=#e20c0c>效果</color>，还会改变酒吧内的<color=#e20c0c>环境</color>",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 89.1,
+      "y": -95.5
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 94,
+    "UIName": "",
+    "Next": 95,
+    "ActiveTime": 0.5,
+    "Sound": "",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "是集实用与炫耀于一身的功能呢，哈哈哈\\r\\ヘ(￣ω￣ヘ)",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 89.1,
+      "y": -95.5
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 95,
+    "UIName": "",
+    "Next": 96,
+    "ActiveTime": 0.5,
+    "Sound": "",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "什么你问收集品的获得<color=#e20c0c>途径</color>？Ծ‸Ծ",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 96,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "自己猜╮(╯▽╰)╭",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 97,
+    "UIName": "ShopForm",
+    "Next": 98,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这是商城啦，老板娘会<color=#e20c0c>随机</color>出售一些，<color=#e20c0c>道具，英雄，收集品</color>",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 98,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "买一些东西支持\\r\\一下我们咯！\\r\\:.ﾟヽ(｡◕‿◕｡)ﾉﾟ.:｡+ﾟ",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 99,
+    "UIName": "IntegralMallForm",
+    "Next": 100,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "这里是<color=#e20c0c>荣誉商城</color>，使用荣誉可以向哥布林伤人<color=#e20c0c>兑换商品</color>",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "ID": 100,
+    "UIName": "",
+    "Next": 0,
+    "ActiveTime": 0.5,
+    "Sound": "guide_begin",
+    "Image": "guide_role_1",
+    "ImagePosition": {
+      "x": 246,
+      "y": 154
+    },
+    "Text": "荣誉是从<color=#e20c0c>对战获取</color>的哟ヘ(￣ω￣ヘ)",
+    "TextPosition": {
+      "x": -181,
+      "y": 0
+    },
+    "TextArea": {
+      "x": 485,
+      "y": 225
+    },
+    "TextBackground": "",
+    "TextBGPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "TextBGArea": {
+      "x": 986,
+      "y": 307
+    },
+    "TipsText": "<color=#492a0d>点击任意继续</color>",
+    "TipsPosition": {
+      "x": 41,
+      "y": -80
+    },
+    "HighlightClickSeep": false,
+    "HighlightPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightArea": {
+      "x": 0,
+      "y": 0
+    },
+    "HighlightEffect": "",
+    "HighlightEffectDuration": 0,
+    "Effect": "",
+    "EffectPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+]

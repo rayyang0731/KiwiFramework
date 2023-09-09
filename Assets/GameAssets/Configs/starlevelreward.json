@@ -1,0 +1,152 @@
+[
+  {
+    "ID": 1,
+    "StarCount": 30,
+    "Reward": "1003:120"
+  },
+  {
+    "ID": 2,
+    "StarCount": 60,
+    "Reward": "1003:150"
+  },
+  {
+    "ID": 3,
+    "StarCount": 90,
+    "Reward": "1003:180"
+  },
+  {
+    "ID": 4,
+    "StarCount": 120,
+    "Reward": "1003:220"
+  },
+  {
+    "ID": 5,
+    "StarCount": 150,
+    "Reward": "1003:250"
+  },
+  {
+    "ID": 6,
+    "StarCount": 180,
+    "Reward": "1003:280"
+  },
+  {
+    "ID": 7,
+    "StarCount": 210,
+    "Reward": "1003:320"
+  },
+  {
+    "ID": 8,
+    "StarCount": 240,
+    "Reward": "1003:350"
+  },
+  {
+    "ID": 9,
+    "StarCount": 270,
+    "Reward": "1003:380"
+  },
+  {
+    "ID": 10,
+    "StarCount": 300,
+    "Reward": "1003:420"
+  },
+  {
+    "ID": 11,
+    "StarCount": 330,
+    "Reward": "1003:450"
+  },
+  {
+    "ID": 12,
+    "StarCount": 360,
+    "Reward": "1003:480"
+  },
+  {
+    "ID": 13,
+    "StarCount": 390,
+    "Reward": "1003:520"
+  },
+  {
+    "ID": 14,
+    "StarCount": 420,
+    "Reward": "1003:550"
+  },
+  {
+    "ID": 15,
+    "StarCount": 450,
+    "Reward": "1003:580"
+  },
+  {
+    "ID": 16,
+    "StarCount": 480,
+    "Reward": "1003:620"
+  },
+  {
+    "ID": 17,
+    "StarCount": 510,
+    "Reward": "1003:650"
+  },
+  {
+    "ID": 18,
+    "StarCount": 540,
+    "Reward": "1003:680"
+  },
+  {
+    "ID": 19,
+    "StarCount": 570,
+    "Reward": "1003:720"
+  },
+  {
+    "ID": 20,
+    "StarCount": 600,
+    "Reward": "1003:750"
+  },
+  {
+    "ID": 21,
+    "StarCount": 630,
+    "Reward": "1003:780"
+  },
+  {
+    "ID": 22,
+    "StarCount": 660,
+    "Reward": "1003:820"
+  },
+  {
+    "ID": 23,
+    "StarCount": 690,
+    "Reward": "1003:850"
+  },
+  {
+    "ID": 24,
+    "StarCount": 720,
+    "Reward": "1003:880"
+  },
+  {
+    "ID": 25,
+    "StarCount": 750,
+    "Reward": "1003:920"
+  },
+  {
+    "ID": 26,
+    "StarCount": 780,
+    "Reward": "1003:950"
+  },
+  {
+    "ID": 27,
+    "StarCount": 810,
+    "Reward": "1003:980"
+  },
+  {
+    "ID": 28,
+    "StarCount": 840,
+    "Reward": "1003:1020"
+  },
+  {
+    "ID": 29,
+    "StarCount": 870,
+    "Reward": "1003:1050"
+  },
+  {
+    "ID": 30,
+    "StarCount": 900,
+    "Reward": "1003:1080"
+  }
+]

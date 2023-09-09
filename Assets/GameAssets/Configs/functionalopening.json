@@ -1,0 +1,74 @@
+[
+  {
+    "ID": 1,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡2可以开启此功能"
+  },
+  {
+    "ID": 2,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡5可以开启此功能"
+  },
+  {
+    "ID": 3,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡10可以开启此功能"
+  },
+  {
+    "ID": 4,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡10可以开启此功能"
+  },
+  {
+    "ID": 5,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡15可以开启此功能"
+  },
+  {
+    "ID": 6,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡30可以开启此功能"
+  },
+  {
+    "ID": 7,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡20可以开启此功能"
+  },
+  {
+    "ID": 8,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡25可以开启此功能"
+  },
+  {
+    "ID": 9,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡25可以开启此功能"
+  },
+  {
+    "ID": 10,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡25可以开启此功能"
+  },
+  {
+    "ID": 11,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡15可以开启此功能"
+  },
+  {
+    "ID": 12,
+    "Type": 1,
+    "Condition": 0,
+    "Tips": "完成关卡15可以开启此功能"
+  }
+]

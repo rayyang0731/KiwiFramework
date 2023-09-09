@@ -1,0 +1,15 @@
+﻿Temp
+Logs
+*.csproj
+*.sln
+Library
+.DS_Store
+.vscode
+.idea
+UserSettings
+Build
+Assets/StreamingAssets/build_info
+Assets/StreamingAssets/build_info.meta
+obj
+*.DotSettings
+KiwiFramework_v1.0.sln.DotSettings.user

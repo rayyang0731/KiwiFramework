@@ -1,0 +1,16 @@
+{
+    "name": "KiwiFramework.GameConfig.Tables",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7debefd00dc1b034494a6dcf5b898979"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

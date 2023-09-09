@@ -1,0 +1,37 @@
+[
+  {
+    "ID": 1,
+    "Diamond": 60,
+    "Price": 6,
+    "Discount": "",
+    "IconName": "DiamondShop_Icon_1"
+  },
+  {
+    "ID": 2,
+    "Diamond": 730,
+    "Price": 68,
+    "Discount": "送50",
+    "IconName": "DiamondShop_Icon_2"
+  },
+  {
+    "ID": 3,
+    "Diamond": 1480,
+    "Price": 128,
+    "Discount": "送200",
+    "IconName": "DiamondShop_Icon_3"
+  },
+  {
+    "ID": 4,
+    "Diamond": 8000,
+    "Price": 648,
+    "Discount": "送1520",
+    "IconName": "DiamondShop_Icon_4"
+  },
+  {
+    "ID": 5,
+    "Diamond": 12000,
+    "Price": 888,
+    "Discount": "送3120",
+    "IconName": "DiamondShop_Icon_5"
+  }
+]
